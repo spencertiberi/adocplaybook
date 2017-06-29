@@ -1,0 +1,78 @@
+= The CS50 IDE
+Spencer Tiberi <tiberi@cs50.harvard.edu> 
+V 1.1, 6.16.2017
+
+:toc: left 
+:toclevels: 3
+
+== What is it?
+ 
+The CS50 IDE (https://cs50.io) is a cloud-based Integrated Development Environment. It features an Ubuntu environment with a browser-based editor, that supports C (as well as python, html/css, JavaScript, and much more!) syntax highlighting and word completing, a GUI-based GDB debugger, and customizable options such as layouts, themes, and keyboard shortcuts. Users can continue working on problems even if they use different computers as it is cloud-based.  Students will be using the CS50 IDE throughout the school year for creation, debugging, collaboration, and submission of programs.
+
+.hello.c on the CS50 IDE
+[caption=""]
+image::https://manual.cs50.net/assets/night-mode.png[CS50 IDE]
+
+== CS50 IDE Setup
+
+Before your students can access the full functionality of the CS50 IDE, you’ll want to make sure your school or district can whitelist the following websites:
+
+
+- *.edx.org
+- *.edx.org
+- *.c9.io
+- *.cs50.io
+- *.github.com
+- *.cs50.me
+ 
+To have your students set up the CS50 IDE you’ll want them to do the following:
+ 
+*1. https://courses.edx.org/register[Create an edX account]*
+
+_edX is a MOOC (Massive Open Online Course) provider created by MIT and Harvard University. An edX account is free to sign up for and students can use their Facebook, Google, or Microsoft credentials to register for an account or create one from scratch. Students will use the login credentials for edX to access their personal CS50 IDE._
+ 
+*2. https://manual.cs50.net/cs50-ide/online.html[Set up the CS50 IDE and tour its features]*
+ 
+_Logging into and updating the CS50 IDE is all students need to do in order to set up the IDE.  At this time, it would be beneficial to have students tour some features of the IDE and become comfortable with updating, working with files, opening and using terminals, customizing the workspace, etc._
+ 
+For future access to the CS50 IDE, students simply login using their edX credentials at https://cs50.io.
+ 
+NOTE: You will likely want to follow the same steps as your students to get a good feel for the usage of the CS50 IDE as both you and your students will be interacting with the IDE on a daily basis during the school year.
+
+== Commands
+
+The CS50 IDE supports the following useful commands that can be written in the terminal:
+
+|===
+|Command | Description| Usage
+
+|* *check50*
+|_Runs tests on code to check for *correctness*._
+|`check50 file_name`
+
+|* *debug50*
+|_Runs the GDB debugger._
+|`debug50 file_name`
+
+|* *help50*
+|_Provides help on command usage._
+|`help50 command_name`
+
+|* *style50*
+|_Checks if student code conforms to CS50's style guide._
+|`style50 file_name`
+
+|* *submit50*
+|_Allows students to sumbit code to https://cs50.me[*cs50.me*]._
+|`submit50 problem_name`
+
+|* *update50*
+|_Updates the IDE to the current version._
+|`update50`
+|===
+
+== More Information
+
+If you want more information on how to use the online CS50 IDE, please visit https://manual.cs50.net/cs50-ide/online.html[our manual page].
+
+You can also download an https://manual.cs50.net/cs50-ide/offline.html[offline version] of the CS50 IDE using Docker if need be!

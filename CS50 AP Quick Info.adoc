@@ -1,0 +1,72 @@
+== CS50 AP Quick Info
+ 
+=== Resources
+ 
+|===
+|Name | Description
+ 
+|https://ap.cs50.net[CS50 AP Portal]
+|_Location of all curriculum and materials for CS50 AP._
+ 
+|https://manual.cs50.net/cs50-ide/online.html[CS50 IDE Manual]
+|_Info on how to use the CS50 IDE._
+ 
+|http://cs50.tv/2016/fall/[CS50.tv]
+|_Lectures, seminars, demo code, and more from previous iterations of CS50._
+ 
+|===
+ 
+=== CS50 IDE Commands
+|===
+|Command | Description |Usage | Example 
+ 
+|* *check50*
+|_Runs tests on code to check for correctness._
+|`check50 [problem_name] [file_name]`
+|`check50 1617.chapter1.hello hello.c`
+ 
+|* *debug50*
+|_Runs the GDB debugger._
+|`debug50 ./[program_name]`
+|`debug50 ./hello`
+ 
+|* *help50*
+|_Provides help for command error messages._
+|`help50 [commands_returning_errors]`
+|`help50 make hello`
+ 
+|* *make*
+|_Compiles C programs._
+|`make [program_name]`
+|`make hello`
+ 
+|* *style50*
+|_Checks if student code conforms to CS50's style guide._
+|`style50 [file_name]`
+|`style50 hello.c`
+ 
+|* *update50*
+|_Updates the IDE to the current version._
+|`update50`
+|`update50`
+ 
+|===
+ 
+ 
+=== Websites to Have Whitelisted
+ 
+|===
+|Programming and Debugging |Grading and Submission of Assignments |Reference and Course Materials
+ 
+|*.edx.org
+|*.github.com
+|*.cs50.harvard.edu
+ 
+|*.c9.io
+|*.cs50.me
+|*.cs50.net
+ 
+|*.cs50.io
+|
+|*.cs50.tv
+|===

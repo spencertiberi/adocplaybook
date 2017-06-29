@@ -5,8 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.5">
-<meta name="author" content="Spencer Tiberi &lt;tiberi@cs50.harvard.edu&gt; and Erin Carvalho &lt;emc@cs50.harvard.edu&gt;">
-<title>CS50 AP Playbook</title>
+<title>CS50 Grading</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -419,129 +418,230 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 .show-for-print{display:inherit!important}}
 </style>
 </head>
-<body class="article">
+<body class="article toc2 toc-left">
 <div id="header">
-<h1>CS50 AP Playbook</h1>
-<div class="details">
-<span id="author" class="author">Spencer Tiberi &lt;tiberi@cs50.harvard.edu&gt; and Erin Carvalho &lt;emc@cs50.harvard.edu&gt;</span><br>
-<span id="revnumber">version 1.1,</span>
-<span id="revdate">6.20.2017</span>
+<h1>CS50 Grading</h1>
+<div id="toc" class="toc2">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_axes">Axes</a>
+<ul class="sectlevel2">
+<li><a href="#_five_point_grading_scale">Five Point Grading Scale</a></li>
+</ul>
+</li>
+<li><a href="#_giving_feedback">Giving Feedback</a>
+<ul class="sectlevel2">
+<li><a href="#_feedback_examples">Feedback Examples</a>
+<ul class="sectlevel3">
+<li><a href="#_design_feedback_opportunity">Design Feedback Opportunity</a></li>
+<li><a href="#_another_design_feedback_opportunity">Another Design Feedback Opportunity</a></li>
+<li><a href="#_style_feedback_opportunity">Style Feedback Opportunity</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#_assigning_a_score">Assigning A Score</a></li>
+</ul>
 </div>
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="_welcome">Welcome</h2>
+<h2 id="_axes">Axes</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>This playbook aims to help startup your CS50 AP course and create a CS50 experience at your school. This page should serve as a jump pad to all the contents of the playbook.</p>
+<p>Just like on campus at Harvard, CS50 AP is graded along the following three axes:</p>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_cs50_ap_overview">CS50 AP Overview</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>CS50 AP is broken into seven chapters and two optional chapters.  Also essential to CS50 AP are the various events that mirror the events held on campus at Harvard.  The following is a suggestled flow of topics, events, and AP CSP tasks for the school year.</p>
-</div>
-<div class="sidebarblock">
-<div class="content">
-<div class="title">Year at a Glance</div>
-<div class="paragraph">
-<p><strong>CS50 Puzzle Day</strong><br>
-<strong>Chapter 0:</strong> Computers and Computing<br>
-<strong>Chapter 1:</strong> Building Blocks of Programming<br>
-<strong>Chapter 2:</strong> Putting the Blocks Together<br>
-<strong>Chapter 3:</strong> Thinking Computationally<br>
-<strong>Chapter 4:</strong> Design, Elegance, and Efficiency<br>
-<strong>AP CSP Explore Task</strong><br>
-<strong>Chapter 5:</strong> Networking and the Internet<br>
-<strong>Chapter 6:</strong> Problem Solving in an Interconnected World<br>
-<strong>AP CSP Create Task</strong><br>
-<strong>CS50 Hackathon</strong><br>
-<strong>CS50 Fair</strong><br>
-<strong>AP CSP Exam</strong><br>
-<strong>Chapter A:</strong> Managing Data (Optional)<br>
-<strong>Chapter B:</strong> Developer’s Toolbox (Optional)<br></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_playbook_contents">Playbook Contents</h2>
-<div class="sectionbody">
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p><a href="https://cs50.harvard.edu/ap/path/to/curriculumstartup.html">Curriculum Overview and Startup Guide</a></p>
+<p><strong>Correctness:</strong> the extent to which code is consistent with CS50 specifications and free of bugs.</p>
 </li>
 <li>
-<p><a href="https://cs50.harvard.edu/ap/path/to/events.html">CS50 Events</a></p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p><a href="https://cs50.harvard.edu/ap/path/to/puzzleday.html">CS50 Puzzle Day</a></p>
+<p><strong>Design:</strong> the extent to which code is written well (i.e., clearly, efficiently, elegantly, and/or logically)</p>
 </li>
 <li>
-<p><a href="https://cs50.harvard.edu/ap/path/to/hackathon.html">CS50 Hackathon</a></p>
-</li>
-<li>
-<p><a href="https://cs50.harvard.edu/ap/path/to/cs50fair.html">CS50 Fair</a></p>
+<p><strong>Style:</strong> the extent to which code is readable (i.e., commented and intended with variables aptly named)</p>
 </li>
 </ol>
 </div>
-</li>
-<li>
-<p><a href="https://cs50.harvard.edu/ap/path/to/apcsp.html">Information on AP CSP</a></p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>Performance Tasks</p>
-<div class="olist lowerroman">
-<ol class="lowerroman" type="i">
-<li>
-<p>Explore Task</p>
-</li>
-<li>
-<p>Create Task</p>
-</li>
-</ol>
+<div class="paragraph">
+<p>Out of the three, <strong>Design</strong> is the most subjective. Whereas <strong>Correctness</strong> and <strong>Style</strong> will be automatically handled by CS50.me and its submission command, <code>submit50</code>, <strong>Design</strong> is graded by the teacher. In general, all 3 axes are graded using thr course&#8217;s five point scale.</p>
 </div>
-</li>
-<li>
-<p>AP Exam</p>
-</li>
-</ol>
+<div class="sect2">
+<h3 id="_five_point_grading_scale">Five Point Grading Scale</h3>
+<div class="paragraph">
+<p>When grading for the 3 axes, CS50 uses a five point grading scale for determining marks as follows:</p>
 </div>
-</li>
-<li>
-<p>Technology and Resources</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p><a href="https://cs50.harvard.edu/ap/path/to/whitelist.html">Website Whitelist</a></p>
-</li>
-<li>
-<p><a href="https://cs50.harvard.edu/ap/path/to/cs50ide.html">CS50 IDE</a></p>
-</li>
-<li>
-<p><a href="https://cs50.harvard.edu/ap/path/to/cs50.me.html">CS50.me</a></p>
-</li>
-<li>
-<p><a href="https://cs50.harvard.edu/ap/path/to/git.html">Git</a></p>
-</li>
-</ol>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>5</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Best: Essentially no room for improvement.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>4</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Better: Minor room for improvement.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>3</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Good: Some room for improvement.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>2</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Fair: Ample room for improvement.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>1</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Poor</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>0</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">No Effort</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+A grade of 3 is indeed good! This can take students time to get comfortable with as they have been trained to see 3 out of 5 as a percentage, namely 3/5 or 60%.<br>
+<br>
+Also, whereas scores of 5 are common for <strong>Correctness</strong> and <strong>Style</strong>, a score of 5 for <strong>Design</strong> should be rare. <strong>Design</strong>, by its nature, offers room for improvement in most cases.  Thus, a 4 for <strong>Design</strong> is a really good grade; a 5 implies perfection in design.
+</td>
+</tr>
+</table>
 </div>
-</li>
-</ol>
+<div class="paragraph">
+<p>It&#8217;s important to focus on providing quality feedback during the grading process so that grades have pedagogical value. Feedback should create opportunites for dialog between teachers and students.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_giving_feedback">Giving Feedback</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Grading for <strong>Design</strong> is by far the most time-consuming, albeit satisfying, process in grading for CS50 AP. The focus of grading for <strong>Design</strong> is efficiency and elegance of a student&#8217;s code. As such, feedback should focus on pointing out good practices (+s) and things to change (Δs). It&#8217;s essential that feedback include reasoning as to why something is a good practice or should be changed. Of course, feedback can also shine light on <strong>Style</strong> and <strong>Correctness</strong>.</p>
+</div>
+<div class="sect2">
+<h3 id="_feedback_examples">Feedback Examples</h3>
+<div class="paragraph">
+<p>Note the following code segments from a submission by a fictitious student for the problem Greedy:</p>
+</div>
+<div class="sect3">
+<h4 id="_design_feedback_opportunity">Design Feedback Opportunity</h4>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code> 6    // all of the floats used in the program
+ 7    float quarter = 25;
+ 8    float dime = 10;
+ 9    float nickel = 5;
+10    float penny = 1;
+11    float owed = 0;
+12    float coins = 0;</code></pre>
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>It&#8217;s a great idea to store these reused values. Do these values ever change or are they static? Do they need to be floats?
+Perhaps it would be best to create constants using
+<code>#DEFINE</code>.</p>
+</div>
+</blockquote>
+<div class="attribution">
+&#8212; Awesome CS50 AP Teacher
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_another_design_feedback_opportunity">Another Design Feedback Opportunity</h4>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>25    while (owed &gt;= quarter)
+26    {
+27        owed = owed - quarter;
+28        coins++;
+29    }
+30
+31    while (owed &gt;= dime &amp;&amp; owed &lt; quarter)
+32    {
+33        owed = owed - dime;
+34        coins++;
+35    }
+36    while (owed &gt;= nickel &amp;&amp; owed &lt; dime)
+37    {
+38        owed = owed - nickel;
+39        coins++;
+40    }
+41    while (owed &gt;= penny &amp;&amp; owed &lt; nickel)
+42    {
+43        owed = owed - penny;
+44        coins++;
+45    }</code></pre>
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>How might we have used the modulus <code>%</code> operator instead using while loops? What might be better about this approach?</p>
+</div>
+</blockquote>
+<div class="attribution">
+&#8212; Handsome CS50 AP Teacher
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_style_feedback_opportunity">Style Feedback Opportunity</h4>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>14    // asks for a input for the program
+15    do
+16    {
+17    printf("How much change is due: ");
+18    owed = GetFloat();
+19    }
+20
+21    // computer takes users change and converts into as few coins as possible
+22    while (owed &lt;= 0);</code></pre>
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>Nice use of braces. However, on lines 17 and 18, it would be easier to read if the lines had another four spaces of indentation. Also,
+the comment on line 21 breaks
+up the do-while loop, making it harder to read. Best to describe this process with the comment on line 14.</p>
+</div>
+</blockquote>
+<div class="attribution">
+&#8212; Fabulous CS50 AP Teacher
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_assigning_a_score">Assigning A Score</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>It can take some practice to determine how to assign a five point scale grade for <strong>Design</strong>.  Thus, for each CS50 AP problem, grading guidelines are provided on the <a href="https://ap.cs50.net/resources/">CS50 AP Portal</a>.</p>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 1.1<br>
-Last updated 2017-06-29 13:39:33 EDT
+Last updated 2017-06-29 13:36:11 EDT
 </div>
 </div>
 </body>

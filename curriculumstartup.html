@@ -1,0 +1,1798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 1.5.5">
+<meta name="author" content="&lt;Note: add problems throughout&gt;">
+<title>CS50 AP Curriculum Outline and Startup Guide</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<style>
+/* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
+/* Remove comment around @import statement below when using as a custom stylesheet */
+/*@import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700";*/
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
+audio,canvas,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
+[hidden],template{display:none}
+script{display:none!important}
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+a{background:transparent}
+a:focus{outline:thin dotted}
+a:active,a:hover{outline:0}
+h1{font-size:2em;margin:.67em 0}
+abbr[title]{border-bottom:1px dotted}
+b,strong{font-weight:bold}
+dfn{font-style:italic}
+hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
+mark{background:#ff0;color:#000}
+code,kbd,pre,samp{font-family:monospace;font-size:1em}
+pre{white-space:pre-wrap}
+q{quotes:"\201C" "\201D" "\2018" "\2019"}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-.5em}
+sub{bottom:-.25em}
+img{border:0}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
+legend{border:0;padding:0}
+button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
+button,input{line-height:normal}
+button,select{text-transform:none}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+html,body{font-size:100%}
+body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;font-weight:400;font-style:normal;line-height:1;position:relative;cursor:auto;tab-size:4;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
+a:hover{cursor:pointer}
+img,object,embed{max-width:100%;height:auto}
+object,embed{height:100%}
+img{-ms-interpolation-mode:bicubic}
+.left{float:left!important}
+.right{float:right!important}
+.text-left{text-align:left!important}
+.text-right{text-align:right!important}
+.text-center{text-align:center!important}
+.text-justify{text-align:justify!important}
+.hide{display:none}
+img,object,svg{display:inline-block;vertical-align:middle}
+textarea{height:auto;min-height:50px}
+select{width:100%}
+.center{margin-left:auto;margin-right:auto}
+.spread{width:100%}
+p.lead,.paragraph.lead>p,#preamble>.sectionbody>.paragraph:first-of-type p{font-size:1.21875em;line-height:1.6}
+.subheader,.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{line-height:1.45;color:#7a2518;font-weight:400;margin-top:0;margin-bottom:.25em}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6,pre,form,p,blockquote,th,td{margin:0;padding:0;direction:ltr}
+a{color:#2156a5;text-decoration:underline;line-height:inherit}
+a:hover,a:focus{color:#1d4b8f}
+a img{border:none}
+p{font-family:inherit;font-weight:400;font-size:1em;line-height:1.6;margin-bottom:1.25em;text-rendering:optimizeLegibility}
+p aside{font-size:.875em;line-height:1.35;font-style:italic}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{font-family:"Open Sans","DejaVu Sans",sans-serif;font-weight:300;font-style:normal;color:#ba3925;text-rendering:optimizeLegibility;margin-top:1em;margin-bottom:.5em;line-height:1.0125em}
+h1 small,h2 small,h3 small,#toctitle small,.sidebarblock>.content>.title small,h4 small,h5 small,h6 small{font-size:60%;color:#e99b8f;line-height:0}
+h1{font-size:2.125em}
+h2{font-size:1.6875em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.375em}
+h4,h5{font-size:1.125em}
+h6{font-size:1em}
+hr{border:solid #ddddd8;border-width:1px 0 0;clear:both;margin:1.25em 0 1.1875em;height:0}
+em,i{font-style:italic;line-height:inherit}
+strong,b{font-weight:bold;line-height:inherit}
+small{font-size:60%;line-height:inherit}
+code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;color:rgba(0,0,0,.9)}
+ul,ol,dl{font-size:1em;line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
+ul,ol,ul.no-bullet,ol.no-bullet{margin-left:1.5em}
+ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0;font-size:1em}
+ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
+ul.square{list-style-type:square}
+ul.circle{list-style-type:circle}
+ul.disc{list-style-type:disc}
+ul.no-bullet{list-style:none}
+ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
+dl dt{margin-bottom:.3125em;font-weight:bold}
+dl dd{margin-bottom:1.25em}
+abbr,acronym{text-transform:uppercase;font-size:90%;color:rgba(0,0,0,.8);border-bottom:1px dotted #ddd;cursor:help}
+abbr{text-transform:none}
+blockquote{margin:0 0 1.25em;padding:.5625em 1.25em 0 1.1875em;border-left:1px solid #ddd}
+blockquote cite{display:block;font-size:.9375em;color:rgba(0,0,0,.6)}
+blockquote cite:before{content:"\2014 \0020"}
+blockquote cite a,blockquote cite a:visited{color:rgba(0,0,0,.6)}
+blockquote,blockquote p{line-height:1.6;color:rgba(0,0,0,.85)}
+@media only screen and (min-width:768px){h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2}
+h1{font-size:2.75em}
+h2{font-size:2.3125em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.6875em}
+h4{font-size:1.4375em}}
+table{background:#fff;margin-bottom:1.25em;border:solid 1px #dedede}
+table thead,table tfoot{background:#f7f8f7;font-weight:bold}
+table thead tr th,table thead tr td,table tfoot tr th,table tfoot tr td{padding:.5em .625em .625em;font-size:inherit;color:rgba(0,0,0,.8);text-align:left}
+table tr th,table tr td{padding:.5625em .625em;font-size:inherit;color:rgba(0,0,0,.8)}
+table tr.even,table tr.alt,table tr:nth-of-type(even){background:#f8f8f7}
+table thead tr th,table tfoot tr th,table tbody tr td,table tr td,table tfoot tr td{display:table-cell;line-height:1.6}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2;word-spacing:-.05em}
+h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title strong,h4 strong,h5 strong,h6 strong{font-weight:400}
+.clearfix:before,.clearfix:after,.float-group:before,.float-group:after{content:" ";display:table}
+.clearfix:after,.float-group:after{clear:both}
+*:not(pre)>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background-color:#f7f7f8;-webkit-border-radius:4px;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed;word-wrap:break-word}
+*:not(pre)>code.nobreak{word-wrap:normal}
+*:not(pre)>code.nowrap{white-space:nowrap}
+pre,pre>code{line-height:1.45;color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;text-rendering:optimizeSpeed}
+em em{font-style:normal}
+strong strong{font-weight:400}
+.keyseq{color:rgba(51,51,51,.8)}
+kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background-color:#f7f7f7;border:1px solid #ccc;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em white inset;box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em #fff inset;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
+.keyseq kbd:first-child{margin-left:0}
+.keyseq kbd:last-child{margin-right:0}
+.menuseq,.menu{color:rgba(0,0,0,.8)}
+b.button:before,b.button:after{position:relative;top:-1px;font-weight:400}
+b.button:before{content:"[";padding:0 3px 0 2px}
+b.button:after{content:"]";padding:0 2px 0 3px}
+p a>code:hover{color:rgba(0,0,0,.9)}
+#header,#content,#footnotes,#footer{width:100%;margin-left:auto;margin-right:auto;margin-top:0;margin-bottom:0;max-width:62.5em;*zoom:1;position:relative;padding-left:.9375em;padding-right:.9375em}
+#header:before,#header:after,#content:before,#content:after,#footnotes:before,#footnotes:after,#footer:before,#footer:after{content:" ";display:table}
+#header:after,#content:after,#footnotes:after,#footer:after{clear:both}
+#content{margin-top:1.25em}
+#content:before{content:none}
+#header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
+#header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #ddddd8}
+#header>h1:only-child,body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #ddddd8;padding-bottom:8px}
+#header .details{border-bottom:1px solid #ddddd8;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:-ms-flexbox;display:-webkit-flex;display:flex;-ms-flex-flow:row wrap;-webkit-flex-flow:row wrap;flex-flow:row wrap}
+#header .details span:first-child{margin-left:-.125em}
+#header .details span.email a{color:rgba(0,0,0,.85)}
+#header .details br{display:none}
+#header .details br+span:before{content:"\00a0\2013\00a0"}
+#header .details br+span.author:before{content:"\00a0\22c5\00a0";color:rgba(0,0,0,.85)}
+#header .details br+span#revremark:before{content:"\00a0|\00a0"}
+#header #revnumber{text-transform:capitalize}
+#header #revnumber:after{content:"\00a0"}
+#content>h1:first-child:not([class]){color:rgba(0,0,0,.85);border-bottom:1px solid #ddddd8;padding-bottom:8px;margin-top:0;padding-top:1rem;margin-bottom:1.25rem}
+#toc{border-bottom:1px solid #efefed;padding-bottom:.5em}
+#toc>ul{margin-left:.125em}
+#toc ul.sectlevel0>li>a{font-style:italic}
+#toc ul.sectlevel0 ul.sectlevel1{margin:.5em 0}
+#toc ul{font-family:"Open Sans","DejaVu Sans",sans-serif;list-style-type:none}
+#toc li{line-height:1.3334;margin-top:.3334em}
+#toc a{text-decoration:none}
+#toc a:active{text-decoration:underline}
+#toctitle{color:#7a2518;font-size:1.2em}
+@media only screen and (min-width:768px){#toctitle{font-size:1.375em}
+body.toc2{padding-left:15em;padding-right:0}
+#toc.toc2{margin-top:0!important;background-color:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #efefed;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
+#toc.toc2 #toctitle{margin-top:0;margin-bottom:.8rem;font-size:1.2em}
+#toc.toc2>ul{font-size:.9em;margin-bottom:0}
+#toc.toc2 ul ul{margin-left:0;padding-left:1em}
+#toc.toc2 ul.sectlevel0 ul.sectlevel1{padding-left:0;margin-top:.5em;margin-bottom:.5em}
+body.toc2.toc-right{padding-left:0;padding-right:15em}
+body.toc2.toc-right #toc.toc2{border-right-width:0;border-left:1px solid #efefed;left:auto;right:0}}
+@media only screen and (min-width:1280px){body.toc2{padding-left:20em;padding-right:0}
+#toc.toc2{width:20em}
+#toc.toc2 #toctitle{font-size:1.375em}
+#toc.toc2>ul{font-size:.95em}
+#toc.toc2 ul ul{padding-left:1.25em}
+body.toc2.toc-right{padding-left:0;padding-right:20em}}
+#content #toc{border-style:solid;border-width:1px;border-color:#e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;-webkit-border-radius:4px;border-radius:4px}
+#content #toc>:first-child{margin-top:0}
+#content #toc>:last-child{margin-bottom:0}
+#footer{max-width:100%;background-color:rgba(0,0,0,.8);padding:1.25em}
+#footer-text{color:rgba(255,255,255,.8);line-height:1.44}
+.sect1{padding-bottom:.625em}
+@media only screen and (min-width:768px){.sect1{padding-bottom:1.25em}}
+.sect1+.sect1{border-top:1px solid #efefed}
+#content h1>a.anchor,h2>a.anchor,h3>a.anchor,#toctitle>a.anchor,.sidebarblock>.content>.title>a.anchor,h4>a.anchor,h5>a.anchor,h6>a.anchor{position:absolute;z-index:1001;width:1.5ex;margin-left:-1.5ex;display:block;text-decoration:none!important;visibility:hidden;text-align:center;font-weight:400}
+#content h1>a.anchor:before,h2>a.anchor:before,h3>a.anchor:before,#toctitle>a.anchor:before,.sidebarblock>.content>.title>a.anchor:before,h4>a.anchor:before,h5>a.anchor:before,h6>a.anchor:before{content:"\00A7";font-size:.85em;display:block;padding-top:.1em}
+#content h1:hover>a.anchor,#content h1>a.anchor:hover,h2:hover>a.anchor,h2>a.anchor:hover,h3:hover>a.anchor,#toctitle:hover>a.anchor,.sidebarblock>.content>.title:hover>a.anchor,h3>a.anchor:hover,#toctitle>a.anchor:hover,.sidebarblock>.content>.title>a.anchor:hover,h4:hover>a.anchor,h4>a.anchor:hover,h5:hover>a.anchor,h5>a.anchor:hover,h6:hover>a.anchor,h6>a.anchor:hover{visibility:visible}
+#content h1>a.link,h2>a.link,h3>a.link,#toctitle>a.link,.sidebarblock>.content>.title>a.link,h4>a.link,h5>a.link,h6>a.link{color:#ba3925;text-decoration:none}
+#content h1>a.link:hover,h2>a.link:hover,h3>a.link:hover,#toctitle>a.link:hover,.sidebarblock>.content>.title>a.link:hover,h4>a.link:hover,h5>a.link:hover,h6>a.link:hover{color:#a53221}
+.audioblock,.imageblock,.literalblock,.listingblock,.stemblock,.videoblock{margin-bottom:1.25em}
+.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{text-rendering:optimizeLegibility;text-align:left;font-family:"Noto Serif","DejaVu Serif",serif;font-size:1rem;font-style:italic}
+table.tableblock>caption.title{white-space:nowrap;overflow:visible;max-width:0}
+.paragraph.lead>p,#preamble>.sectionbody>.paragraph:first-of-type p{color:rgba(0,0,0,.85)}
+table.tableblock #preamble>.sectionbody>.paragraph:first-of-type p{font-size:inherit}
+.admonitionblock>table{border-collapse:separate;border:0;background:none;width:100%}
+.admonitionblock>table td.icon{text-align:center;width:80px}
+.admonitionblock>table td.icon img{max-width:none}
+.admonitionblock>table td.icon .title{font-weight:bold;font-family:"Open Sans","DejaVu Sans",sans-serif;text-transform:uppercase}
+.admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #ddddd8;color:rgba(0,0,0,.6)}
+.admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
+.exampleblock>.content{border-style:solid;border-width:1px;border-color:#e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;-webkit-border-radius:4px;border-radius:4px}
+.exampleblock>.content>:first-child{margin-top:0}
+.exampleblock>.content>:last-child{margin-bottom:0}
+.sidebarblock{border-style:solid;border-width:1px;border-color:#e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;-webkit-border-radius:4px;border-radius:4px}
+.sidebarblock>:first-child{margin-top:0}
+.sidebarblock>:last-child{margin-bottom:0}
+.sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
+.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
+.literalblock pre,.listingblock pre:not(.highlight),.listingblock pre[class="highlight"],.listingblock pre[class^="highlight "],.listingblock pre.CodeRay,.listingblock pre.prettyprint{background:#f7f7f8}
+.sidebarblock .literalblock pre,.sidebarblock .listingblock pre:not(.highlight),.sidebarblock .listingblock pre[class="highlight"],.sidebarblock .listingblock pre[class^="highlight "],.sidebarblock .listingblock pre.CodeRay,.sidebarblock .listingblock pre.prettyprint{background:#f2f1f1}
+.literalblock pre,.literalblock pre[class],.listingblock pre,.listingblock pre[class]{-webkit-border-radius:4px;border-radius:4px;word-wrap:break-word;padding:1em;font-size:.8125em}
+.literalblock pre.nowrap,.literalblock pre[class].nowrap,.listingblock pre.nowrap,.listingblock pre[class].nowrap{overflow-x:auto;white-space:pre;word-wrap:normal}
+@media only screen and (min-width:768px){.literalblock pre,.literalblock pre[class],.listingblock pre,.listingblock pre[class]{font-size:.90625em}}
+@media only screen and (min-width:1280px){.literalblock pre,.literalblock pre[class],.listingblock pre,.listingblock pre[class]{font-size:1em}}
+.literalblock.output pre{color:#f7f7f8;background-color:rgba(0,0,0,.9)}
+.listingblock pre.highlightjs{padding:0}
+.listingblock pre.highlightjs>code{padding:1em;-webkit-border-radius:4px;border-radius:4px}
+.listingblock pre.prettyprint{border-width:0}
+.listingblock>.content{position:relative}
+.listingblock code[data-lang]:before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:#999}
+.listingblock:hover code[data-lang]:before{display:block}
+.listingblock.terminal pre .command:before{content:attr(data-prompt);padding-right:.5em;color:#999}
+.listingblock.terminal pre .command:not([data-prompt]):before{content:"$"}
+table.pyhltable{border-collapse:separate;border:0;margin-bottom:0;background:none}
+table.pyhltable td{vertical-align:top;padding-top:0;padding-bottom:0;line-height:1.45}
+table.pyhltable td.code{padding-left:.75em;padding-right:0}
+pre.pygments .lineno,table.pyhltable td:not(.code){color:#999;padding-left:0;padding-right:.5em;border-right:1px solid #ddddd8}
+pre.pygments .lineno{display:inline-block;margin-right:.25em}
+table.pyhltable .linenodiv{background:none!important;padding-right:0!important}
+.quoteblock{margin:0 1em 1.25em 1.5em;display:table}
+.quoteblock>.title{margin-left:-1.5em;margin-bottom:.75em}
+.quoteblock blockquote,.quoteblock blockquote p{color:rgba(0,0,0,.85);font-size:1.15rem;line-height:1.75;word-spacing:.1em;letter-spacing:0;font-style:italic;text-align:justify}
+.quoteblock blockquote{margin:0;padding:0;border:0}
+.quoteblock blockquote:before{content:"\201c";float:left;font-size:2.75em;font-weight:bold;line-height:.6em;margin-left:-.6em;color:#7a2518;text-shadow:0 1px 2px rgba(0,0,0,.1)}
+.quoteblock blockquote>.paragraph:last-child p{margin-bottom:0}
+.quoteblock .attribution{margin-top:.5em;margin-right:.5ex;text-align:right}
+.quoteblock .quoteblock{margin-left:0;margin-right:0;padding:.5em 0;border-left:3px solid rgba(0,0,0,.6)}
+.quoteblock .quoteblock blockquote{padding:0 0 0 .75em}
+.quoteblock .quoteblock blockquote:before{display:none}
+.verseblock{margin:0 1em 1.25em 1em}
+.verseblock pre{font-family:"Open Sans","DejaVu Sans",sans;font-size:1.15rem;color:rgba(0,0,0,.85);font-weight:300;text-rendering:optimizeLegibility}
+.verseblock pre strong{font-weight:400}
+.verseblock .attribution{margin-top:1.25rem;margin-left:.5ex}
+.quoteblock .attribution,.verseblock .attribution{font-size:.9375em;line-height:1.45;font-style:italic}
+.quoteblock .attribution br,.verseblock .attribution br{display:none}
+.quoteblock .attribution cite,.verseblock .attribution cite{display:block;letter-spacing:-.025em;color:rgba(0,0,0,.6)}
+.quoteblock.abstract{margin:0 0 1.25em 0;display:block}
+.quoteblock.abstract blockquote,.quoteblock.abstract blockquote p{text-align:left;word-spacing:0}
+.quoteblock.abstract blockquote:before,.quoteblock.abstract blockquote p:first-of-type:before{display:none}
+table.tableblock{max-width:100%;border-collapse:separate}
+table.tableblock td>.paragraph:last-child p>p:last-child,table.tableblock th>p:last-child,table.tableblock td>p:last-child{margin-bottom:0}
+table.tableblock,th.tableblock,td.tableblock{border:0 solid #dedede}
+table.grid-all th.tableblock,table.grid-all td.tableblock{border-width:0 1px 1px 0}
+table.grid-all tfoot>tr>th.tableblock,table.grid-all tfoot>tr>td.tableblock{border-width:1px 1px 0 0}
+table.grid-cols th.tableblock,table.grid-cols td.tableblock{border-width:0 1px 0 0}
+table.grid-all *>tr>.tableblock:last-child,table.grid-cols *>tr>.tableblock:last-child{border-right-width:0}
+table.grid-rows th.tableblock,table.grid-rows td.tableblock{border-width:0 0 1px 0}
+table.grid-all tbody>tr:last-child>th.tableblock,table.grid-all tbody>tr:last-child>td.tableblock,table.grid-all thead:last-child>tr>th.tableblock,table.grid-rows tbody>tr:last-child>th.tableblock,table.grid-rows tbody>tr:last-child>td.tableblock,table.grid-rows thead:last-child>tr>th.tableblock{border-bottom-width:0}
+table.grid-rows tfoot>tr>th.tableblock,table.grid-rows tfoot>tr>td.tableblock{border-width:1px 0 0 0}
+table.frame-all{border-width:1px}
+table.frame-sides{border-width:0 1px}
+table.frame-topbot{border-width:1px 0}
+th.halign-left,td.halign-left{text-align:left}
+th.halign-right,td.halign-right{text-align:right}
+th.halign-center,td.halign-center{text-align:center}
+th.valign-top,td.valign-top{vertical-align:top}
+th.valign-bottom,td.valign-bottom{vertical-align:bottom}
+th.valign-middle,td.valign-middle{vertical-align:middle}
+table thead th,table tfoot th{font-weight:bold}
+tbody tr th{display:table-cell;line-height:1.6;background:#f7f8f7}
+tbody tr th,tbody tr th p,tfoot tr th,tfoot tr th p{color:rgba(0,0,0,.8);font-weight:bold}
+p.tableblock>code:only-child{background:none;padding:0}
+p.tableblock{font-size:1em}
+td>div.verse{white-space:pre}
+ol{margin-left:1.75em}
+ul li ol{margin-left:1.5em}
+dl dd{margin-left:1.125em}
+dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
+ol>li p,ul>li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
+ul.unstyled,ol.unnumbered,ul.checklist,ul.none{list-style-type:none}
+ul.unstyled,ol.unnumbered,ul.checklist{margin-left:.625em}
+ul.checklist li>p:first-child>.fa-square-o:first-child,ul.checklist li>p:first-child>.fa-check-square-o:first-child{width:1em;font-size:.85em}
+ul.checklist li>p:first-child>input[type="checkbox"]:first-child{width:1em;position:relative;top:1px}
+ul.inline{margin:0 auto .625em auto;margin-left:-1.375em;margin-right:0;padding:0;list-style:none;overflow:hidden}
+ul.inline>li{list-style:none;float:left;margin-left:1.375em;display:block}
+ul.inline>li>*{display:block}
+.unstyled dl dt{font-weight:400;font-style:normal}
+ol.arabic{list-style-type:decimal}
+ol.decimal{list-style-type:decimal-leading-zero}
+ol.loweralpha{list-style-type:lower-alpha}
+ol.upperalpha{list-style-type:upper-alpha}
+ol.lowerroman{list-style-type:lower-roman}
+ol.upperroman{list-style-type:upper-roman}
+ol.lowergreek{list-style-type:lower-greek}
+.hdlist>table,.colist>table{border:0;background:none}
+.hdlist>table>tbody>tr,.colist>table>tbody>tr{background:none}
+td.hdlist1,td.hdlist2{vertical-align:top;padding:0 .625em}
+td.hdlist1{font-weight:bold;padding-bottom:1.25em}
+.literalblock+.colist,.listingblock+.colist{margin-top:-.5em}
+.colist>table tr>td:first-of-type{padding:0 .75em;line-height:1}
+.colist>table tr>td:last-of-type{padding:.25em 0}
+.thumb,.th{line-height:0;display:inline-block;border:solid 4px #fff;-webkit-box-shadow:0 0 0 1px #ddd;box-shadow:0 0 0 1px #ddd}
+.imageblock.left,.imageblock[style*="float: left"]{margin:.25em .625em 1.25em 0}
+.imageblock.right,.imageblock[style*="float: right"]{margin:.25em 0 1.25em .625em}
+.imageblock>.title{margin-bottom:0}
+.imageblock.thumb,.imageblock.th{border-width:6px}
+.imageblock.thumb>.title,.imageblock.th>.title{padding:0 .125em}
+.image.left,.image.right{margin-top:.25em;margin-bottom:.25em;display:inline-block;line-height:0}
+.image.left{margin-right:.625em}
+.image.right{margin-left:.625em}
+a.image{text-decoration:none;display:inline-block}
+a.image object{pointer-events:none}
+sup.footnote,sup.footnoteref{font-size:.875em;position:static;vertical-align:super}
+sup.footnote a,sup.footnoteref a{text-decoration:none}
+sup.footnote a:active,sup.footnoteref a:active{text-decoration:underline}
+#footnotes{padding-top:.75em;padding-bottom:.75em;margin-bottom:.625em}
+#footnotes hr{width:20%;min-width:6.25em;margin:-.25em 0 .75em 0;border-width:1px 0 0 0}
+#footnotes .footnote{padding:0 .375em 0 .225em;line-height:1.3334;font-size:.875em;margin-left:1.2em;text-indent:-1.05em;margin-bottom:.2em}
+#footnotes .footnote a:first-of-type{font-weight:bold;text-decoration:none}
+#footnotes .footnote:last-of-type{margin-bottom:0}
+#content #footnotes{margin-top:-.625em;margin-bottom:0;padding:.75em 0}
+.gist .file-data>table{border:0;background:#fff;width:100%;margin-bottom:0}
+.gist .file-data>table td.line-data{width:99%}
+div.unbreakable{page-break-inside:avoid}
+.big{font-size:larger}
+.small{font-size:smaller}
+.underline{text-decoration:underline}
+.overline{text-decoration:overline}
+.line-through{text-decoration:line-through}
+.aqua{color:#00bfbf}
+.aqua-background{background-color:#00fafa}
+.black{color:#000}
+.black-background{background-color:#000}
+.blue{color:#0000bf}
+.blue-background{background-color:#0000fa}
+.fuchsia{color:#bf00bf}
+.fuchsia-background{background-color:#fa00fa}
+.gray{color:#606060}
+.gray-background{background-color:#7d7d7d}
+.green{color:#006000}
+.green-background{background-color:#007d00}
+.lime{color:#00bf00}
+.lime-background{background-color:#00fa00}
+.maroon{color:#600000}
+.maroon-background{background-color:#7d0000}
+.navy{color:#000060}
+.navy-background{background-color:#00007d}
+.olive{color:#606000}
+.olive-background{background-color:#7d7d00}
+.purple{color:#600060}
+.purple-background{background-color:#7d007d}
+.red{color:#bf0000}
+.red-background{background-color:#fa0000}
+.silver{color:#909090}
+.silver-background{background-color:#bcbcbc}
+.teal{color:#006060}
+.teal-background{background-color:#007d7d}
+.white{color:#bfbfbf}
+.white-background{background-color:#fafafa}
+.yellow{color:#bfbf00}
+.yellow-background{background-color:#fafa00}
+span.icon>.fa{cursor:default}
+.admonitionblock td.icon [class^="fa icon-"]{font-size:2.5em;text-shadow:1px 1px 2px rgba(0,0,0,.5);cursor:default}
+.admonitionblock td.icon .icon-note:before{content:"\f05a";color:#19407c}
+.admonitionblock td.icon .icon-tip:before{content:"\f0eb";text-shadow:1px 1px 2px rgba(155,155,0,.8);color:#111}
+.admonitionblock td.icon .icon-warning:before{content:"\f071";color:#bf6900}
+.admonitionblock td.icon .icon-caution:before{content:"\f06d";color:#bf3400}
+.admonitionblock td.icon .icon-important:before{content:"\f06a";color:#bf0000}
+.conum[data-value]{display:inline-block;color:#fff!important;background-color:rgba(0,0,0,.8);-webkit-border-radius:100px;border-radius:100px;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Open Sans","DejaVu Sans",sans-serif;font-style:normal;font-weight:bold}
+.conum[data-value] *{color:#fff!important}
+.conum[data-value]+b{display:none}
+.conum[data-value]:after{content:attr(data-value)}
+pre .conum[data-value]{position:relative;top:-.125em}
+b.conum *{color:inherit!important}
+.conum:not([data-value]):empty{display:none}
+dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
+h1,h2,p,td.content,span.alt{letter-spacing:-.01em}
+p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
+p,blockquote,dt,td.content,span.alt{font-size:1.0625rem}
+p{margin-bottom:1.25rem}
+.sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
+.exampleblock>.content{background-color:#fffef7;border-color:#e0e0dc;-webkit-box-shadow:0 1px 4px #e0e0dc;box-shadow:0 1px 4px #e0e0dc}
+.print-only{display:none!important}
+@media print{@page{margin:1.25cm .75cm}
+*{-webkit-box-shadow:none!important;box-shadow:none!important;text-shadow:none!important}
+a{color:inherit!important;text-decoration:underline!important}
+a.bare,a[href^="#"],a[href^="mailto:"]{text-decoration:none!important}
+a[href^="http:"]:not(.bare):after,a[href^="https:"]:not(.bare):after{content:"(" attr(href) ")";display:inline-block;font-size:.875em;padding-left:.25em}
+abbr[title]:after{content:" (" attr(title) ")"}
+pre,blockquote,tr,img,object,svg{page-break-inside:avoid}
+thead{display:table-header-group}
+svg{max-width:100%}
+p,blockquote,dt,td.content{font-size:1em;orphans:3;widows:3}
+h2,h3,#toctitle,.sidebarblock>.content>.title{page-break-after:avoid}
+#toc,.sidebarblock,.exampleblock>.content{background:none!important}
+#toc{border-bottom:1px solid #ddddd8!important;padding-bottom:0!important}
+.sect1{padding-bottom:0!important}
+.sect1+.sect1{border:0!important}
+#header>h1:first-child{margin-top:1.25rem}
+body.book #header{text-align:center}
+body.book #header>h1:first-child{border:0!important;margin:2.5em 0 1em 0}
+body.book #header .details{border:0!important;display:block;padding:0!important}
+body.book #header .details span:first-child{margin-left:0!important}
+body.book #header .details br{display:block}
+body.book #header .details br+span:before{content:none!important}
+body.book #toc{border:0!important;text-align:left!important;padding:0!important;margin:0!important}
+body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-break-before:always}
+.listingblock code[data-lang]:before{display:block}
+#footer{background:none!important;padding:0 .9375em}
+#footer-text{color:rgba(0,0,0,.6)!important;font-size:.9em}
+.hide-on-print{display:none!important}
+.print-only{display:block!important}
+.hide-for-print{display:none!important}
+.show-for-print{display:inherit!important}}
+</style>
+</head>
+<body class="article toc2 toc-left">
+<div id="header">
+<h1>CS50 AP Curriculum Outline and Startup Guide</h1>
+<div class="details">
+<span id="author" class="author">&lt;Note: add problems throughout&gt;</span><br>
+</div>
+<div id="toc" class="toc2">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_concepts_taught_in_cs50_ap">Concepts Taught in CS50 AP</a>
+<ul class="sectlevel2">
+<li><a href="#_chapter_0_computers_and_computing_completion_time_3_weeks">Chapter 0: Computers and Computing (Completion Time: 3 Weeks)</a>
+<ul class="sectlevel3">
+<li><a href="#_central_focus">Central Focus</a></li>
+<li><a href="#_a_computers_and_how_they_work">a. Computers and how they work</a></li>
+<li><a href="#_b_how_computers_work">b. How Computers Work</a></li>
+<li><a href="#_c_bits_and_bytes">c. Bits and Bytes</a></li>
+<li><a href="#_d_hardware_optional">d. Hardware (Optional)</a></li>
+<li><a href="#_e_memory">e. Memory</a></li>
+<li><a href="#_f_binary">f. Binary</a></li>
+<li><a href="#_g_ascii">g. ASCII</a></li>
+<li><a href="#_h_algorithms">h. Algorithms</a></li>
+</ul>
+</li>
+<li><a href="#_the_ap_csp_explore_task">The AP CSP Explore Task</a></li>
+<li><a href="#_chapter_1_building_blocks_of_programming_completion_time_4_weeks">Chapter 1: Building Blocks of Programming (Completion Time: 4 Weeks)</a>
+<ul class="sectlevel3">
+<li><a href="#_central_focus_2">Central Focus</a></li>
+<li><a href="#_a_pseudocode">a. Pseudocode</a></li>
+<li><a href="#_b_scratch">b. Scratch</a></li>
+<li><a href="#_c_syntax">c. Syntax</a></li>
+<li><a href="#_d_variables">d. Variables</a></li>
+<li><a href="#_e_data_types">e. Data Types</a></li>
+<li><a href="#_f_operators">f. Operators</a></li>
+<li><a href="#_g_boolean_expressions_and_conditionals">g. Boolean Expressions and Conditionals</a></li>
+<li><a href="#_h_loops">h. Loops</a></li>
+</ul>
+</li>
+<li><a href="#_chapter_2_putting_the_blocks_together_completion_time_5_weeks">Chapter 2: Putting the Blocks Together (Completion Time: 5 Weeks)</a>
+<ul class="sectlevel3">
+<li><a href="#_central_focus_3">Central Focus</a></li>
+<li><a href="#_a_compiling">a. Compiling</a></li>
+<li><a href="#_b_functions">b. Functions</a></li>
+<li><a href="#_c_arrays_and_strings">c. Arrays and Strings</a></li>
+<li><a href="#_d_command_line_interaction">d. Command-Line Interaction</a></li>
+<li><a href="#_e_exit_codes">e. Exit Codes</a></li>
+<li><a href="#_f_libraries">f. Libraries</a></li>
+<li><a href="#_g_typecasting">g. Typecasting</a></li>
+<li><a href="#_h_bugs_and_debugging">h. Bugs and Debugging</a></li>
+</ul>
+</li>
+<li><a href="#_chapter_3_thinking_computationally_completion_time_3_weeks">Chapter 3: Thinking Computationally (Completion Time: 3 Weeks)</a>
+<ul class="sectlevel3">
+<li><a href="#_central_focus_4">Central Focus</a></li>
+<li><a href="#_a_linear_search">a. Linear Search</a></li>
+<li><a href="#_b_bubble_sort">b. Bubble Sort</a></li>
+<li><a href="#_c_selection_sort">c. Selection Sort</a></li>
+<li><a href="#_d_insertion_sort">d. Insertion Sort</a></li>
+<li><a href="#_e_binary_search">e. Binary Search</a></li>
+<li><a href="#_f_time_complexity">f. Time Complexity</a></li>
+<li><a href="#_g_unsolvable_problems">g. Unsolvable Problems</a></li>
+<li><a href="#_h_simulation">h. Simulation</a></li>
+</ul>
+</li>
+<li><a href="#_chapter_4_design_elegance_and_efficiency_completion_time_4_weeks">Chapter 4: Design, Elegance, and Efficiency (Completion Time: 4 Weeks)</a>
+<ul class="sectlevel3">
+<li><a href="#_central_focus_5">Central Focus</a></li>
+<li><a href="#_a_principles_of_good_design">a. Principles of Good Design</a></li>
+<li><a href="#_b_ncurses">b. ncurses</a></li>
+<li><a href="#_c_structures_and_encapsulation">c. Structures and Encapsulation</a></li>
+<li><a href="#_d_recursion">d. Recursion</a></li>
+<li><a href="#_e_merge_sort">e. Merge Sort</a></li>
+<li><a href="#_f_hexadecimal">f. Hexadecimal</a></li>
+<li><a href="#_g_file_i_o">g. File I/O</a></li>
+<li><a href="#_h_images">h. Images</a></li>
+<li><a href="#_i_version_control">i. Version Control</a></li>
+</ul>
+</li>
+<li><a href="#_chapter_a_managing_data_optional_track">Chapter A: Managing Data (Optional Track)</a>
+<ul class="sectlevel3">
+<li><a href="#_central_focus_6">Central Focus</a></li>
+<li><a href="#_a_stacks">a. Stacks</a></li>
+<li><a href="#_b_queues">b. Queues</a></li>
+<li><a href="#_c_pointers">c. Pointers</a></li>
+<li><a href="#_d_dynamic_memory">d. Dynamic Memory</a></li>
+<li><a href="#_e_valgrind">e. Valgrind</a></li>
+<li><a href="#_f_trees">f. Trees</a></li>
+<li><a href="#_g_tries">g. Tries</a></li>
+<li><a href="#_h_linked_lists">h. Linked Lists</a></li>
+<li><a href="#_i_hash_tables">i. Hash Tables</a></li>
+</ul>
+</li>
+<li><a href="#_chapter_b_developer_s_toolbox_optional_track">Chapter B: Developer’s Toolbox (Optional Track)</a>
+<ul class="sectlevel3">
+<li><a href="#_central_focus_7">Central Focus</a></li>
+<li><a href="#_a_abstraction_and_api">a. Abstraction and API</a></li>
+<li><a href="#_b_data_compression">b. Data Compression</a></li>
+<li><a href="#_c_huffman_coding">c. Huffman Coding</a></li>
+<li><a href="#_d_scalability">d. Scalability</a></li>
+<li><a href="#_e_collaboration">e. Collaboration</a></li>
+</ul>
+</li>
+<li><a href="#_chapter_5_networking_and_the_internet_completion_time_3_weeks">Chapter 5: Networking and the Internet (Completion Time: 3 Weeks)</a>
+<ul class="sectlevel3">
+<li><a href="#_central_focus_8">Central Focus</a></li>
+<li><a href="#_a_internet_basics">a. Internet Basics</a></li>
+<li><a href="#_b_ip_addresses">b. IP Addresses</a></li>
+<li><a href="#_c_dns_and_dhcp">c. DNS and DHCP</a></li>
+<li><a href="#_d_routers">d. Routers</a></li>
+<li><a href="#_e_tcp_and_ip">e. TCP and IP</a></li>
+<li><a href="#_f_http">f. HTTP</a></li>
+<li><a href="#_g_trust_models_and_open_source">g. Trust Models and Open Source</a></li>
+<li><a href="#_h_cybersecurity">h. Cybersecurity</a></li>
+<li><a href="#_i_html">i. HTML</a></li>
+<li><a href="#_j_css">j. CSS</a></li>
+</ul>
+</li>
+<li><a href="#_chapter_6_problem_solving_in_an_interconnected_world_completion_time_5_weeks">Chapter 6: Problem Solving in an Interconnected World (Completion Time: 5 Weeks)</a>
+<ul class="sectlevel3">
+<li><a href="#_central_focus_9">Central Focus</a></li>
+<li><a href="#_a_python">a. Python</a></li>
+<li><a href="#_b_python_for_web_programming">b. Python for Web Programming</a></li>
+<li><a href="#_c_sql">c. SQL</a></li>
+<li><a href="#_d_mvc">d. MVC</a></li>
+<li><a href="#_e_javascript">e. JavaScript</a></li>
+<li><a href="#_f_ajax">f. Ajax</a></li>
+<li><a href="#_g_artificial_intelligence">g. Artificial Intelligence</a></li>
+<li><a href="#_h_virtual_and_augmented_reality">h. Virtual and Augmented Reality</a></li>
+</ul>
+</li>
+<li><a href="#_the_ap_csp_create_task">The AP CSP Create Task</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="content">
+<div class="sect1">
+<h2 id="_concepts_taught_in_cs50_ap">Concepts Taught in CS50 AP</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The following is an outline of concepts covered in the CS50 AP curriculum. The individual conecpts are grouped into chapters with approximations for completion time. Each concept includes an tips and suggestions as to how to get started when teaching the topic.</p>
+</div>
+<div class="sect2">
+<h3 id="_chapter_0_computers_and_computing_completion_time_3_weeks">Chapter 0: Computers and Computing (Completion Time: 3 Weeks)</h3>
+<div class="sect3">
+<h4 id="_central_focus">Central Focus</h4>
+<div class="paragraph">
+<p>Students will engage in real world problems to analyze and create algorithms. Students will also explore the role of computers in today?s society and how they pertain to developments other fields.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_a_computers_and_how_they_work">a. Computers and how they work</h4>
+<div class="paragraph">
+<p><em>What makes a computer a computer? Discuss the common bonds that unify all those things, which we call computers. Also take a brief look at algorithms and the techniques used for solving problems.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p><a href="https://www.youtube.com/watch?v=Rs-Eub0-cRk" class="bare">https://www.youtube.com/watch?v=Rs-Eub0-cRk</a>, <a href="https://www.youtube.com/v/LHdVkPrdRYg" class="bare">https://www.youtube.com/v/LHdVkPrdRYg</a>, <a href="https://www.youtube.com/v/GcDshWmhF4A" class="bare">https://www.youtube.com/v/GcDshWmhF4A</a><br>
+After watching the following videos, students can discuss in pairs or small groups what makes a device a computer. Start with a few math computations (addition, subtraction, multiplication, division, etc.) and have students try to come up with a formal definition of computation.</p>
+</div>
+<div class="paragraph">
+<div class="title">Activity: Computer or Not?</div>
+<p>Have students discuss and/or debate whether or not a device is a computer or not. This can be used as an opportunity for collaboration. Divide students into two groups and have them come up with a persuasive defense to present to the class.</p>
+</div>
+<div class="paragraph">
+<p>Materials:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Plethora of gadgets (some computers and some that are clearly not)</p>
+</li>
+<li>
+<p>Devices that straddle the line to initiate conversation on the definition of a computer (e.g., a set of chemical pool water testing strips, a smoke detector, an analog clock)</p>
+</li>
+</ol>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_b_how_computers_work">b. How Computers Work</h4>
+<div class="paragraph">
+<p><em>Take a look at the technical side about what&#8217;s going on underneath the hood, so students are able to speak competently about it in conversations with others.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Have students make predictions of what happens when a button is pressed or the mouse is clicked on their computers. Then using an old, obsolete computer, show students key components of computers and discuss their role with the system.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_c_bits_and_bytes">c. Bits and Bytes</h4>
+<div class="paragraph">
+<p><em>Data and storage on a computer all boils down to a fundamental unit of measure&#8201;&#8212;&#8201;the bit, which can only take on two possible values. By combining bits into larger and larger groups we can become substantially more expressive.</em></p>
+</div>
+<div class="olist arabic">
+<div class="title">How to Launch the Lesson:</div>
+<ol class="arabic">
+<li>
+<p>Show students the development of memory storage. Some examples include floppy disks and zip disks which can be taken apart to show where things have been stored. More modern examples include CDs and external hard drives.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<div class="title">Demo: Storage</div>
+<p>Describe that a bit represents one of two values (e.g. true or false, on or off). Elaborate on the physical size various units of storage might take up, all things being equal. For example, if a single bit were about the size of a single marble filled with water:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>1 bit&#8201;&#8212;&#8201;a marble full of water</p>
+</li>
+<li>
+<p>1 byte&#8201;&#8212;&#8201;1/8 cup water</p>
+</li>
+<li>
+<p>1 kilobyte&#8201;&#8212;&#8201;9 gallons of water</p>
+</li>
+<li>
+<p>1 megabyte&#8201;&#8212;&#8201;an above ground swimming pool full of water</p>
+</li>
+<li>
+<p>1 gigabyte&#8201;&#8212;&#8201;a football field sized-pool of water, three feet deep</p>
+</li>
+<li>
+<p>1 terabyte&#8201;&#8212;&#8201;a football field sized-pool of water, half a mile deep</p>
+</li>
+</ul>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_d_hardware_optional">d. Hardware (Optional)</h4>
+<div class="paragraph">
+<p><em>Dive deeper into hardware and give students a consumer-oriented perspective on things to consider when we are purchasing or building their own machines.</em></p>
+</div>
+<div class="olist arabic">
+<div class="title">How to Launch the Lesson:</div>
+<ol class="arabic">
+<li>
+<p>Have students make a list of hardware that they have heard of, then using an old computer, disassemble and identify parts students have mentioned as well as parts they have not and discuss their purpose.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<div class="title">Activity: Tech Shopping</div>
+<p>Discuss the specs of tech items on the market. For further analysis, break students into groups and give them all a ?budget? to buy a computer. Challenge them to see who can get the most bang for their buck. Have them defend their choices and sacrifices made to the rest of the class.
+Materials:
+Devices for researching new technologies</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_e_memory">e. Memory</h4>
+<div class="paragraph">
+<p><em>Understand the five major types of memory that are part of nearly every computer system are discussed&#8201;&#8212;&#8201;hard disk drives (HDD), random-access memory (RAM), L2 and L1 cache, and the small bank of memory inside of a CPU.</em></p>
+</div>
+<div class="olist arabic">
+<div class="title">How to Launch the Lesson:</div>
+<ol class="arabic">
+<li>
+<p>Have students discuss memory specs of the devices that they use (i.e. iPhone, Android, MacBook Pro, etc.). Why are there two different numbers associated with memory? Have students predict what each might be and what information it stores.</p>
+</li>
+</ol>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_f_binary">f. Binary</h4>
+<div class="paragraph">
+<p><em>An introduction of binary numbers showing analogies to the decimal number system with the purpose to not only introduce students to binary numbers, but also prepare them for encountering other number systems.</em></p>
+</div>
+<div class="olist arabic">
+<div class="title">How to Launch the Lesson:</div>
+<ol class="arabic">
+<li>
+<p>Review decimal system and the concept of place values, then show students the place values for the binary system. Discuss what patterns students notice. Using 5 sheets of paper with the following values: 1, 2, 4, 8 and 16 flip some over and have students add the numbers to determine its decimal conversion. Then switch the game and give students decimal numbers to represent using the papers.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<div class="title">Activity: Binary Bulbs</div>
+<p>Light the way for students to understand binary with some physical representation. Have individual students represent different place values and give them numbers to represent by simply turning their light on or off.</p>
+</div>
+<div class="paragraph">
+<p>Materials:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Lights of sort (i.e. flashlights, light bulbs, lamps, etc.)</p>
+</li>
+</ol>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_g_ascii">g. ASCII</h4>
+<div class="paragraph">
+<p><em>A look at how binary numbers can represent characters and punctuation as well as the standardization of such values in ASCII.</em></p>
+</div>
+<div class="olist arabic">
+<div class="title">How to Launch the Lesson:</div>
+<ol class="arabic">
+<li>
+<p>Review binary system from previous model. In small groups have students discuss how a computer might represent letters or symbols if can only understand 0s and 1s. Compare different groups responses. Would ?a? be represented in the same way in all systems? Show students ASCII table and discuss standardization and patterns.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<div class="title">Activity: Crack the Code</div>
+<p>In small groups have students write secret messages in ASCII (in decimal and/or binary) and have other groups try to crack them.</p>
+</div>
+<div class="paragraph">
+<p>Materials:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Paper and pen or whiteboards</p>
+</li>
+</ol>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_h_algorithms">h. Algorithms</h4>
+<div class="paragraph">
+<p><em>Learn to express algorithms using spoken or written language, and learn of the importance of defining algorithms precisely in order to have the desired effect(s) occur.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Have students recreate a simple line image based on instructions given by a student. Only the student giving directions is aloud to see the original image. Display different student examples to stress the importance of using specific terminology.</p>
+</div>
+<div class="paragraph">
+<div class="title">Demo: Phone Book</div>
+<p>Show an example of linear search. Have students discuss with a partner or group what other algorithms could be both more efficient and correct. Discuss and demonstrate binary search while comparing it to linear search. Have students reflect on why the method of ripping the phone book is called binary search (e.g. what does binary search entail).</p>
+</div>
+<div class="paragraph">
+<p>Materials:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Phone book</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<div class="title">Activity: PB &amp; J Sandwich Algorithm</div>
+<p>Demonstrate the precision required for an algorithm to be carried out by a computer. Have one student record steps as a few student volunteers and a student teacher or principle execute the steps as literally as possible. Stop after 15-20 steps to discuss what went wrong and the importance of precision.</p>
+</div>
+<div class="paragraph">
+<p>Materials:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>bag of bread</p>
+</li>
+<li>
+<p>peanut butter</p>
+</li>
+<li>
+<p>jam</p>
+</li>
+<li>
+<p>butter knife</p>
+</li>
+<li>
+<p>plate</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<div class="title">Activity: Creating Algorithms</div>
+<p>Have students write an algorithm for completing some task they do every day. Have students submit their algorithms to you during class. If an interesting one comes up, ask two other students to volunteer. Have one follow the algorithm while the other is out of the room. Then have the second come in and execute the algorithm. Did the two executions play out identically?</p>
+</div>
+<div class="paragraph">
+<div class="title">Activity: Everyday Algorgithms in Real Life</div>
+<p>Have students use their written assignment 0-2. Students should volunteer to demonstrate another student?s algorithm, to illustrate how quickly things can go off track. If a student turns in a particularly compelling algorithm (an interesting task), it may be worth bringing in materials so that the instructions can be carried out.</p>
+</div>
+<hr>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_the_ap_csp_explore_task">The AP CSP Explore Task</h3>
+<div class="paragraph">
+<p>The Explore Task falls is a written assignment between Chapters 0 and 1. Students investigate a technology of their choosingAt this point they have completed several writing assignments geared towards helping students find credible sources and guiding them through the researching process.</p>
+</div>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_chapter_1_building_blocks_of_programming_completion_time_4_weeks">Chapter 1: Building Blocks of Programming (Completion Time: 4 Weeks)</h3>
+<div class="sect3">
+<h4 id="_central_focus_2">Central Focus</h4>
+<div class="paragraph">
+<p>Students begin to apply computational thinking, learning to express ideas first in pseudocode, then a visual language, Scratch, and finally, a text based language, C. They are introduced to various programming elements, and begin writing basic programs with proper syntax.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_a_pseudocode">a. Pseudocode</h4>
+<div class="paragraph">
+<p><em>An introductions into express computational ideas in a language that can be translated to code. Used correctly, thinking in pseudocode may also help find bugs in your program before you even begin writing a single line of code!</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Have students choose an algorithmic math procedure they know how to do (For example, solving the quadratic equation), and have them express the procedure in words. If there?s time, students can swap procedures and try to guess what the written procedure is supposed to do.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_b_scratch">b. Scratch</h4>
+<div class="paragraph">
+<p><em>Create your first program using a drag and drop block based language called Scratch, which will allow students to learn concepts without getting mired in syntax.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Because this topic is very specific, a teacher could introduce Scratch by having students play some games created in Scratch, either individually or as a class. The game used in lecture is: <a href="https://scratch.mit.edu/projects/76196420/" class="bare">https://scratch.mit.edu/projects/76196420/</a></p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_c_syntax">c. Syntax</h4>
+<div class="paragraph">
+<p><em>Moving away from a block-based language and more toward C, students will explore the details of how to express programming concepts in a text based language.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Prepare syntactically incorrect English sentences (missing punctuation, etc). Have students try to decode their meaning. Are there sentences that could mean more than one thing? Explain why computers cannot compile programs with incorrect syntax.</p>
+</div>
+<div class="paragraph">
+<div class="title">Demo: Error Checking</div>
+<p>As David does in lecture, start with a simple but syntactically correct program. Then, add functionality to it but make syntax errors along the way, soliciting input from the class to fix them.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_d_variables">d. Variables</h4>
+<div class="paragraph">
+<p><em>Develop an understanding of a variable as a container in which you can store things. Students will then be able to use and update their variables throughout the program.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Run a demonstration where selected students try to sum up a number via one sheet of paper without talking. Invite around 4 students to the front, and draw a box on the whiteboard. The first student writes a value there. The other students write a number value on a sheet of paper. Have each student add their number to the number on the board, thus updating the variable.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_e_data_types">e. Data Types</h4>
+<div class="paragraph">
+<p><em>Every time students declare a variable they must bringing it into existence and specify its type. Students will explore the different variable types in C as well as the differences between static and dynamic typing.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Have students think of a list of how many types of data they think a computer can store. Likely, you&#8217;ll end up with responses like pictures or videos which is an opportunity to revisit how bits and bytes store data.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_f_operators">f. Operators</h4>
+<div class="paragraph">
+<p><em>Showing how we program arithmetic and assignment operations while noting the idiosyncrasies of left gets right where the expression x = 10 means x gets the value of 10.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Have students think about operations from math. Have them review the order of operations. Use examples of expressions with similar numbers and operations but different parentheses to show the importance of placement both in math and computer science alike.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_g_boolean_expressions_and_conditionals">g. Boolean Expressions and Conditionals</h4>
+<div class="paragraph">
+<p><em>Conditional branching using Boolean expressions are how we as programmers make decisions in our programs. They empower us to take different forks in the road, allowing for different behaviors or different user experiences.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Have students articulate how they have their scratch programs make decisions. When have we decided the cat should meow? (Using a Boolean).</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_h_loops">h. Loops</h4>
+<div class="paragraph">
+<p><em>Instead of copying and pasting the same line(s) of code back-to-back, which can get clunky. All modern programming languages contain some variations on the construction of a loop, which permits iteration and repetition.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Have students list the most repetitive tasks they have to do in everyday life (for instance, folding each t-shirt, washing each dish, etc). Discuss when would loops be useful in a real-world context.</p>
+</div>
+<div class="paragraph">
+<div class="title">Activity: While Loops in Real Life</div>
+<p>Have a student instruct another student to walk from one location to another location in the room. The challenge: You can only instruct one step at a time. Then, introduce loops and conditions, so that the statement "walk forward until you reach a wall" is valid.</p>
+</div>
+<hr>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_chapter_2_putting_the_blocks_together_completion_time_5_weeks">Chapter 2: Putting the Blocks Together (Completion Time: 5 Weeks)</h3>
+<div class="sect3">
+<h4 id="_central_focus_3">Central Focus</h4>
+<div class="paragraph">
+<p>Students dive deeper into abstraction and the efficiencies they provide. Students will become more familiar with the CS50 IDE and resources available to them within the IDE.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_a_compiling">a. Compiling</h4>
+<div class="paragraph">
+<p><em>Look behind the curtain of make so students get a better understanding of the underlying compiler, clang, and the usefulness of having a program like make to abstract away creating that mashup of 0s and 1s, possibly linking together your code with the code of others.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Explain the role of a compiler to students. Have them work in small groups to discuss metaphors for the role of a compiler. An example could be explaining that compilers are similar to translators. When two people who don?t communicate in the same language, they need a translator so that they can speak to one another. Students should be able to defend their own metaphors to other groups or the class at large.</p>
+</div>
+<div class="paragraph">
+<div class="title">Demo: Compilation Simulation</div>
+<p>Breaking down a simple program like Rob does in the short video is a good illustration of what happens at every step of the way with the compilation process.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_b_functions">b. Functions</h4>
+<div class="paragraph">
+<p><em>Introduce students to the simplification and elegance that functions provide us with. Discuss how to declare, define, and call functions and ways to modify them by way of parameters. (Note: This is a very important topic and might be worthwhile to spend about a week&#8217;s time of class here.)</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Have small groups of students come up with some sample inputs and outputs and have them switch amongst themselves. Can the other group(s) figure out the function based on the samples given? Explain how functions are often a black box of sorts. We don&#8217;t need to always know how they work but we do need to know what it will output when given a specific input.</p>
+</div>
+<div class="paragraph">
+<div class="title">Demo: Student Functions</div>
+<p>Have students play the role of various functions, using pieces of paper as the "variables" they pass back and forth, to illustrate the notion of parameters, return values, and scope.</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>Materials:
+1. Papers to write variables</pre>
+</div>
+</div>
+<div class="paragraph">
+<div class="title">Activity: IDE Errors</div>
+<p>Have students experiment with writing functions without declaring them and trying to compile their program, just to become familiar with some of the compiler errors that might get thrown.</p>
+</div>
+<div class="paragraph">
+<p>Materials:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Devices for using the IDE</p>
+</li>
+<li>
+<p>Feel free to use any of the source code on <a href="https://cs50.tv">cs50.tv</a> such as <a href="http://cdn.cs50.net/2014/fall/lectures/2/m/src2m/function-0.c">function 0</a> or <a href="http://cdn.cs50.net/2014/fall/lectures/2/m/src2m/function-1.c">function 1</a></p>
+</li>
+</ol>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_c_arrays_and_strings">c. Arrays and Strings</h4>
+<div class="paragraph">
+<p><em>Arrays hold values of the same type at contiguous memory locations. In particular, the use of arrays allows us to create "groups" of variables without naming each, but still allowing us to individually index into the elements of the array. (Note: CS50 AP and C are 0 indexed, however College Board&#8217;s AP Exam is 1 indexed)</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Have students make predictions about how they would expect a computer to store data of the same type that is related. Would they want this data in multiple places or in one place? Would you want to have access to any piece at any given time or only one data point at a time while iterating through the each item? Have we already seen examples of this (i.e. strings)? Have students think-pair-share their responses.</p>
+</div>
+<div class="paragraph">
+<div class="title">Activity: Multiplication Arrays</div>
+<p>Use arrays to define a multiplication table, to give some exposure to multi-dimensional arrays. Have students the index for answer to a given multiplication answer such as 3*4 = table(4)(5) =12. (Note: arrays in C are 0 indexed)</p>
+</div>
+<div class="paragraph">
+<div class="title">Activity: Game Mode</div>
+<p>Have students draw out and play games they are already familiar with in the context of arrays. Some games include battleship, tic tac toe, and wheel of fortune. All of the games mentioned above can help students better visualize how data is stored in an array.</p>
+</div>
+<div class="paragraph">
+<p>Materials:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Paper and pen or whiteboards</p>
+</li>
+</ol>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_d_command_line_interaction">d. Command-Line Interaction</h4>
+<div class="paragraph">
+<p><em>Look into ways we can collect input from the user before the program starts running, perhaps allowing the program to take different paths through the code depending on what the user provided at the command line.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Is it better to get input from a user before the program runs or during? Break students up into two groups and have each defend a side. Might there be different scenarios where one might be more useful than the other.</p>
+</div>
+<div class="paragraph">
+<div class="title">Demo: Mastering the Command Line</div>
+<p>The good news here is that this topic tends to be among the least complicated, we&#8217;ve found, in CS50. Writing a few simple programs tends to go quite a long way. To that end, please feel free to use any of the below or others you find on <a href="https://cs50.tv">cs50.tv</a>:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><a href="http://cdn.cs50.net/2014/fall/lectures/3/m/src3m/hello-3.c">hello 3</a></p>
+</li>
+<li>
+<p><a href="http://cdn.cs50.net/2014/fall/lectures/3/m/src3m/argv-0.c">argv 0</a></p>
+</li>
+<li>
+<p><a href="http://cdn.cs50.net/2014/fall/lectures/3/m/src3m/argv-1.c">argv 1</a></p>
+</li>
+<li>
+<p><a href="http://cdn.cs50.net/2014/fall/lectures/3/m/src3m/argv-2.c">argv 2</a></p>
+</li>
+</ol>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_e_exit_codes">e. Exit Codes</h4>
+<div class="paragraph">
+<p><em>Discuss the meanings of return 0; or return 1; and touch on why and how we might use them as programmers.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Have students review return values from functions unit. In small groups have them discuss when one might want to exit a program. How would your program know how to exit? Would you want your program to always return the same value when it exits or would you want different values?</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_f_libraries">f. Libraries</h4>
+<div class="paragraph">
+<p><em>Show students the importance of using libraries and making use of the work that others before us have done and allowing us to spring forth from there.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Ask students to create instructions to build something like a paper airplane or the like. Specify in their instructions that they are not allowed to use abstractions such as <em>triangle</em>, <em>square</em>, or <em>fold</em>. How tedious is this process to describe the same function repeatedly. Would it be easier if you were provided with some functions that the user already knew such as <em>fold</em> or <em>right angle</em>.</p>
+</div>
+<div class="paragraph">
+<div class="title">Activity: Exploring the IDE</div>
+<p>Encourage students to poke around their IDE to have a look at the contents of the C standard library files, so they know what functions they have available to them. Knowledge is power!<br></p>
+</div>
+<div class="paragraph">
+<p>To do this, students must first cd /usr/include.</p>
+</div>
+<div class="paragraph">
+<p>Then, they may type less &lt;header file&gt;, e.g. less stdio.h or less cs50.h, they can then scroll up and down in the terminal window to see the contents. So as to prevent accidental overwrites, the header files cannot be opened in Ace.</p>
+</div>
+<div class="paragraph">
+<p>Type q to exit the less command and return to the terminal prompt. To return to their workspaces, students can type cd ~/workspace. It could also be useful for students to search the internet for other useful libraries that are not built into C or CS50 IDE, and identify the context in which one might wish to use functions from those libraries.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_g_typecasting">g. Typecasting</h4>
+<div class="paragraph">
+<p><em>C gives us the ability to cast (temporarily change) one data type into another with the same or less precision (e.g. we can cast a double to a float, but not vice versa), which might be more efficient from a design standpoint. Examine the mechanism and some use cases for typecasting.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Review data types. Have students brainstorm as many scenarios as they can in which you would have a user input data in one type but want it in a different type later in the program.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_h_bugs_and_debugging">h. Bugs and Debugging</h4>
+<div class="paragraph">
+<p><em>Explore different kinds of bugs, the real-world implications of buggy code, and techniques for rooting out bugs in our programs using certain tools built into CS50 IDE, in particular a popular command-line (and, in CS50 IDE, graphical) program called GDB.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Pair students and have them share the strategies they have been using to debug their own programs. Switch students and have them share in different pairs. Are there similarities? Differences? Are there some methods that are more effective and more efficient than others?</p>
+</div>
+<div class="paragraph">
+<div class="title">Demo: Exterminating Bugs</div>
+<p>One of the best things to do here, honestly, is to find buggy code on the internet. There are tons and tons of websites hosting deliberately buggy C code for exercises involving "spot the bug," and it&#8217;s a great way to fill a class period. Similarly many quiz questions available on quizbank.cs50.net contain deliberately buggy code and challenge students to spot the bug. Being able to spot these things makes it much less likely that students will replicate these bugs in their own code during problem-solving.</p>
+</div>
+<hr>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_chapter_3_thinking_computationally_completion_time_3_weeks">Chapter 3: Thinking Computationally (Completion Time: 3 Weeks)</h3>
+<div class="sect3">
+<h4 id="_central_focus_4">Central Focus</h4>
+<div class="paragraph">
+<p>Students will analyze algorithms to compare correctness, run times, efficiencies and inefficiencies. Students will also explore computational problems and explain the difference between solvable and unsolvable problems.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_a_linear_search">a. Linear Search</h4>
+<div class="paragraph">
+<p><em>Linear search is the most basic algorithm for searching that students will encounter in the course. This topic should be quite short, just enough to familiarize students with the concept of linear search!</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Refer back to the phone book demo
+Have students try the following game with linear search. What limitations do you face? Does it matter what side you start on?
+<a href="https://www.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/a/a-guessing-game" class="bare">https://www.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/a/a-guessing-game</a></p>
+</div>
+<div class="paragraph">
+<div class="title">Activity: Where&#8217;s the 50?</div>
+<p>The "Where&#8217;s the 50?" game that David plays in lecture is usually a riot, either because it goes spectacularly well or spectacularly poorly. Have students flip papers lined up in an array to find the number 50.</p>
+</div>
+<div class="paragraph">
+<p>Materials:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Papers to cover numbers written on a chalkboard/whiteboard</p>
+</li>
+</ol>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_b_bubble_sort">b. Bubble Sort</h4>
+<div class="paragraph">
+<p><em>Consider a basic approach to sorting that narrows the scope of our problem to focusing on ordering just two elements at a time, instead of an entire array at a time.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Have a student sort a stack of papers (alphabetically or numerically) then have class describe the algorithm used to sort the array. Discuss why one might want a sorted array vs. an unsorted one. Are there benefits to such an array?</p>
+</div>
+<div class="paragraph">
+<p>Have a group of students hold an integer. Sort the array using the various sorting algorithms. Write out pseudocode for the algorithms and try to formalize into C as a class or in small groups.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_c_selection_sort">c. Selection Sort</h4>
+<div class="paragraph">
+<p><em>Another approach to sorting whereby one minimizes the number of swaps required (relative to bubble sort), but substantially increases the amount of comparing required in order to sort a single element.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Have a group of students hold an integer. Sort the array using the various sorting algorithms. Write out pseudocode for the algorithms and try to formalize into C as a class or in small groups.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_d_insertion_sort">d. Insertion Sort</h4>
+<div class="paragraph">
+<p><em>The last of the sorting algorithms that doesn&#8217;t require us to iterate across the array multiple times (as selection and bubble sort do), but this benefit, of course, comes with its own additional costs.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Have a group of students hold an integer. Sort the array using the various sorting algorithms. Write out pseudocode for the algorithms and try to formalize into C as a class or in small groups.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_e_binary_search">e. Binary Search</h4>
+<div class="paragraph">
+<p><em>Students discover an algorithm whose speed can be leaps and bounds better than linear search, but not without a cost&#8212;&#8203;the data must be sorted first.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Go back to the same page (<a href="https://www.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/a/a-guessing-game" class="bare">https://www.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/a/a-guessing-game</a>) and look at the example containing 300 numbers. How is it possible to guess the computers answer in 9 guesses? How might we modify our algorithm leveraging Unit 0 concepts?</p>
+</div>
+<div class="paragraph">
+<div class="title">Activity: Ping Pong Search</div>
+<p>Also fairly dramatic is to do binary search with numbered ping-pong balls sitting on plastic cups, smacking away various portions of the "array" as you go through the search.</p>
+</div>
+<div class="paragraph">
+<p>Materials:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Ping pong balls</p>
+</li>
+<li>
+<p>Plastic cups</p>
+</li>
+</ol>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_f_time_complexity">f. Time Complexity</h4>
+<div class="paragraph">
+<p><em>Begin to discuss the way in which computer scientists measure the theoretical worst-case (O) and best-case (W) scenarios when running programs.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Compare bubble sort, insertion sort and selection sort for different arrays at <a href="https://www.toptal.com/developers/sorting-algorithms" class="bare">https://www.toptal.com/developers/sorting-algorithms</a> (number of data points and types of data are customizable). Which is fastest? Do they vary based on how sorted the data is? How do we assign meaning to these times? Given a large set of data which one would sort the fastest (trick question since they all have big O(n<sup>2</sup>))?</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_g_unsolvable_problems">g. Unsolvable Problems</h4>
+<div class="paragraph">
+<p><em>Computers are amazing, and it seems like there must be nothing a computer cannot do. But as it turns out, computers can&#8217;t do everything, and never actually will be able to. Spend some time considering some unsolvable problems in computer science, including one of the most famous problems in that category: the halting problem.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Have students discuss a problem that computers cannot solve in pairs or small groups. Challenge students to think of a way that a computer could in fact solve that problem. Show students <a href="https://www.youtube.com/watch?v=92WHN-pAFCs" class="bare">https://www.youtube.com/watch?v=92WHN-pAFCs</a> and <a href="https://www.youtube.com/watch?v=macM_MtS_w4" class="bare">https://www.youtube.com/watch?v=macM_MtS_w4</a> to discuss problems in the realm of CS that are in fact unsolvable.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_h_simulation">h. Simulation</h4>
+<div class="paragraph">
+<p><em>Computer programs can be used to create models and simulations, to test hypotheses and generate new understanding and knowledge. Students will explore simulations of existing knowledge and use simulation software to test models.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>In small groups, have students discuss what scenarios one might use a simulation to solve or simplify a problem. What benefits are afforded to us when we use simulations?</p>
+</div>
+<hr>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_chapter_4_design_elegance_and_efficiency_completion_time_4_weeks">Chapter 4: Design, Elegance, and Efficiency (Completion Time: 4 Weeks)</h3>
+<div class="sect3">
+<h4 id="_central_focus_5">Central Focus</h4>
+<div class="paragraph">
+<p>Students will find patterns and test hypotheses based on given data, and then manipulate the data to extrapolate different results. In this process students will also identify multiple levels of abstraction with distribution as well as their own.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_a_principles_of_good_design">a. Principles of Good Design</h4>
+<div class="paragraph">
+<p><em>Good design is what differentiates between a program that works and a program that works well. Good design is key aspect for a program to be portable, scalable, and reusable. Good design includes, but is not limited to, a program that has a fast run-time, is modularized for easy debugging, robust, consistent, and not repetitive in code.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Break students up into groups and assign each group a different problem they have already done (i.e. Mario or Greedy). How can we leverage new concepts to make our programs more efficient? Did our previous solutions exhibit good design?</p>
+</div>
+<div class="paragraph">
+<div class="title">Activity: Switching Roles</div>
+<p>Find some code examples or use anonymous student submissions from previous problems. Discuss what grade that submission would receive on the four axes of grading (correctness, scope, style and design). Focus particularly on design and what optimizations could make the program better.</p>
+</div>
+<div class="paragraph">
+<p>Materials:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Code examples</p>
+</li>
+<li>
+<p>Rubrics and/or descriptions for grading on each axis</p>
+</li>
+</ol>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_b_ncurses">b. ncurses</h4>
+<div class="paragraph">
+<p><em>ncurses is a simple (albeit dated!) graphics library that can be used to create rudimentary graphical user interfaces (GUI) for games. Although rarely if at all used today, ncurses is among the most sophisticated graphics libraries we can use on CS50 IDE.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Since students are already pretty familiar with the IDE at this point, spend some time going over some code examples using ncurses, including but not limited to:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://www.dropbox.com/s/0w6nbf86cioy1jq/hello.c?dl=0">hello.c</a></p>
+</li>
+<li>
+<p><a href="https://www.dropbox.com/s/48ft084ye5p4eqs/diagonals.c?dl=0">diagonals.c</a></p>
+</li>
+<li>
+<p><a href="https://www.dropbox.com/s/hrlxdm3kbsgbx2u/colors.c?dl=0">colors.c</a></p>
+</li>
+</ul>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_c_structures_and_encapsulation">c. Structures and Encapsulation</h4>
+<div class="paragraph">
+<p><em>At a certain point, the usual suspect data types no longer suffice for the kind of work we need to do. Rather, we need to be able to encapsulate data more broadly, allowing us to group information together, but where all of that information relates to some large entity.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Revisit arrays with students. What did they store? What were their limitations? Is there a way to group elements with the same indexes from separate arrays? What might that look like? Propose creating a new data type that can consist of multiple parts such a data type called "student" that consists of a "name", "ID #" and "birthdate."</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_d_recursion">d. Recursion</h4>
+<div class="paragraph">
+<p><em>Recursive solutions to problems are typically contrasted with iterative solutions to problems. In a recursive solution, a function (or set of functions) repeatedly invokes slightly modified instance of itself, with each subsequent instance tending closer and closer to a base case.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Break students up into groups and have them design a program using loops to find the factorial of a number, n (Example: 5! = 5*4*3*2*1). Then as a class describe how they can modify their solutions to use a recursive function instead of loops. For inspiration, watch:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://www.youtube.com/watch?v=C-J0fKmwKmw">sigma-0</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=GSY5bEv3gX8">sigma-1</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<div class="title">Activity: Pass the Candy</div>
+<p>Start with bags of varying numbers of small items (like candy or marbles), one for each student. In groups of 3-4, have each student record the number of items each person in the group has. Students should then give half of their items (determine whether students should round up or down for odd numbers) to the neighbor on their left and record new totals. Continue this for several iterations. How can we describe this process using a recursive approach? Watch this video to see how its done - <a href="https://www.youtube.com/watch?v=eiJ5-gUsNEQ" class="bare">https://www.youtube.com/watch?v=eiJ5-gUsNEQ</a>.</p>
+</div>
+<div class="paragraph">
+<p>Materials:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Bags of small items varying in number</p>
+</li>
+<li>
+<p>Paper to record data</p>
+</li>
+</ol>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_e_merge_sort">e. Merge Sort</h4>
+<div class="paragraph">
+<p><em>The other sorting algorithms we&#8217;ve covered in the class&#8201;&#8212;&#8201;selection sort, insertion sort, and bubble sort&#8201;&#8212;&#8201;all suffer from the same general limitations and thus suffer the same, generally slow, worst-case runtime of O(n). Merge sort, though, behaves in a fundamentally different manner, leveraging recursion to "pass the buck" of sorting but also accomplishing something drastically superior&#8201;&#8212;&#8201;O(n log n) runtime.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>As with all other sorting algorithms, having students participate in a live-action sort, such as by student height or by students simply holding numbered pieces of paper, is a good way to visualize this algorithm.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_f_hexadecimal">f. Hexadecimal</h4>
+<div class="paragraph">
+<p><em>As previously discussed, analogies are made to the decimal (base 10) number system with which students are intimately familiar. You&#8217;ll also learn how to represent values in hex and how to convert between hex, binary, and decimal using basic algorithms.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Have students think back to binary. What are the place values in binary? How can we apply this to a hexadecimal system (base 16). What number(s) are represented the same in both systems. What would the place values be in hexadecimal?</p>
+</div>
+<div class="paragraph">
+<div class="title">Activity: Base Converter</div>
+<p>Have students practice changing bases with this <a href="http://bit.ly/2bE2cME">interactive widget</a>. Click on game mode to randomly generate a number that students have to express in the base (2-binary, 16-hexadecimal, and 10-decimal) selected.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_g_file_i_o">g. File I/O</h4>
+<div class="paragraph">
+<p><em>Indeed, C has the capability of file I/O as a means of storing persistent data that exists after our programs have finished running and to read information from a file during the course of the program&#8217;s execution. Students will be introduced to some of the basic file I/O functions they have at their disposal through stdio.h.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Have students write the process of how they would normally write to a file. For instance: open a word doc, start typing, close word doc. Discuss implications of doing any of these processes out of order. Use this time to show some code examples of fopen, fread, fwrite and fclose. Some can be found here -https://cdn.cs50.net/2014/fall/sections/4/section4.pdf.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_h_images">h. Images</h4>
+<div class="paragraph">
+<p><em>Images are stored as a number of file types, including but not limited to bitmaps (.bmp), JPGs (.jpg), PNGs (.png), and GIFs (.gif). Each type of file has its advantages and disadvantages, limitations, and more.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Hand out grid paper to students. Have students create drawings that are made up of colored boxes (no partially colored boxes, either fully colored or empty). Explain that this is how computers view images (even high-quality ones). Each box represents a pixel that is either turned on or off.</p>
+</div>
+<div class="paragraph">
+<div class="title">Demo: Bit Examiner</div>
+<p>Use the command line utility <code>xxd</code> on a small bitmap in the terminal to examine the bits.</p>
+</div>
+<div class="paragraph">
+<div class="title">Demo: Image Compressor</div>
+<p>Compress a JPG multiple times (using regular Windows or OSX image tools) so students can see how it does not do well with compression when you try to "recover" the original.</p>
+</div>
+<div class="paragraph">
+<p>Materials:
+. Sample images
+. Program to compress images</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_i_version_control">i. Version Control</h4>
+<div class="paragraph">
+<p><em>Discuss different popular techniques for collaboration among programmers. The "driver/navigator" model will suffice for student collaboration, but we also touch on some more advanced techniques for those of you who wish to independently pursue their learning about these.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Introduce students to the value of collaboration in coding with this <a href="https://www.youtube.com/watch?v=vgkahOzFH2Q">short video</a>.</p>
+</div>
+<hr>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_chapter_a_managing_data_optional_track">Chapter A: Managing Data (Optional Track)</h3>
+<div class="sect3">
+<h4 id="_central_focus_6">Central Focus</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_a_stacks">a. Stacks</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_b_queues">b. Queues</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_c_pointers">c. Pointers</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_d_dynamic_memory">d. Dynamic Memory</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_e_valgrind">e. Valgrind</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_f_trees">f. Trees</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_g_tries">g. Tries</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_h_linked_lists">h. Linked Lists</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_i_hash_tables">i. Hash Tables</h4>
+
+</div>
+</div>
+<div class="sect2">
+<h3 id="_chapter_b_developer_s_toolbox_optional_track">Chapter B: Developer’s Toolbox (Optional Track)</h3>
+<div class="sect3">
+<h4 id="_central_focus_7">Central Focus</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_a_abstraction_and_api">a. Abstraction and API</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_b_data_compression">b. Data Compression</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_c_huffman_coding">c. Huffman Coding</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_d_scalability">d. Scalability</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_e_collaboration">e. Collaboration</h4>
+
+</div>
+</div>
+<div class="sect2">
+<h3 id="_chapter_5_networking_and_the_internet_completion_time_3_weeks">Chapter 5: Networking and the Internet (Completion Time: 3 Weeks)</h3>
+<div class="sect3">
+<h4 id="_central_focus_8">Central Focus</h4>
+<div class="paragraph">
+<p>Students will transition from programs that exist only on their IDE to programs that can be viewed globally. They will explore the global system of interconnected computer networks that use the Internet protocol suite (TCP/IP) to link devices worldwide and the languages which enable them to express their ideas on the internet.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_a_internet_basics">a. Internet Basics</h4>
+<div class="paragraph">
+<p><em>An overview of how the internet works and how we as users interact with it. This topic can also be used as sort of a teaser for the rest of the chapter.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Have students write down their ideas of how they think the internet works. Revisit these ideas at the end of this chapter. What was correct? What was incorrect? What do students still have questions about?</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_b_ip_addresses">b. IP Addresses</h4>
+<div class="paragraph">
+<p><em>IP (Internet Protocol) addresses are assigned to each device connected to a network. A device or web page can be identified by its IP addresses, as all are unique - like a postal address.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Have students find their IP addresses. Why does everyone on the internet need a unique IP address? Students can switch IP addresses with peers and try to track the location using <a href="http://what-is-my-address-ip.com/" class="bare">http://what-is-my-address-ip.com/</a> or a similar site.</p>
+</div>
+<div class="paragraph">
+<div class="title">Activity: Your IP Address</div>
+<p>Have students find their IP addresses on their computer and connect to one another&#8217;s addresses using the terminal command ping or something similar.</p>
+</div>
+<div class="paragraph">
+<div class="title">Activity: Your Favorite IP Address</div>
+<p>Have students find the IP addresses of their favorite websites and get to them by typing the IP address instead of the URL.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_c_dns_and_dhcp">c. DNS and DHCP</h4>
+<div class="paragraph">
+<p><em>DHCP, also known as the Dynamic Host Configuration Protocol, dynamically assigns IP addresses to devices connecting to a network. DNS, the Domain Name System, is responsible for translating URLs of websites to IP addresses and vice versa. We need both IP addresses to be able to form a successful connection from sender to receiver.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Have students think of metaphors that represent the roles that DHCP and DNS play with regards to IP addresses. Would it still be able to access websites without DHCP? or DNS? Are both necessary?</p>
+</div>
+<div class="paragraph">
+<div class="title">Demo: Phone Book</div>
+<p>An analogy for DNS to use is a phone book - you look up a person&#8217;s name, and are given their phone number if you need to contact them. This is similar to typing in a website URL, which is then translated to an IP address.</p>
+</div>
+<div class="paragraph">
+<div class="title">Demo: Dynamically Assigning Numbers</div>
+<p>An analogy for DHCP could be anything dealing with dynamically assigning numbers to devices, i.e. numbers at a deli, characters in a board game, etc. The key is that it is possible to have the same number more than once, but that it is not guaranteed.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_d_routers">d. Routers</h4>
+<div class="paragraph">
+<p><em>Routers are the components of the Internet that direct packages of data across various networks. They follow a set of rules to direct packets based upon IP address and port. Typically routers will direct individual packets on different routes to end up at the same location.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Let each student pick a unique website. Then use a site similar to <a href="http://www.yougetsignal.com/tools/visual-tracert/" class="bare">http://www.yougetsignal.com/tools/visual-tracert/</a> to view the trace route for each site or do it from the command line. Which student had the furthest location in their trace route? Why do you think that is?</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_e_tcp_and_ip">e. TCP and IP</h4>
+<div class="paragraph">
+<p><em>IP is the system we&#8217;ve just seen, that works with routers to ensure packets of data are split into pieces, sent to the correct destination, and pieced back together. TCP ensures data is properly marked when it is split into pieces, so if one packet does not arrive, the sender is notified and can resend.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Using the same tool as above have students use the same web tool to count how many locations they went to in their trace route. Did number of places correspond with distance from the previous time using this tool? Why or why not would this make sense? Which website had the least number of hops? Which had the most?</p>
+</div>
+<div class="paragraph">
+<div class="title">Activity: Connections</div>
+<p>Give students all a notecard on which is written a different component of an internet connection. Some of them will be packets of data; see if the packets can get to their destination by having students place themselves in the correct order.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_f_http">f. HTTP</h4>
+<div class="paragraph">
+<p><em>Hypertext Transfer Protocol, or HTTP, is what web browsers use to speak to web servers. The server receives the request and either successfully executes the action (by rendering a page or submitting a form, for example) or returns an error code; these are called HTTP status codes.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Find examples of different types of requests. Load the pages with Developer Tools and display the requests to the students.</p>
+</div>
+<div class="paragraph">
+<div class="title">Demo: Status Codes</div>
+<p>Find examples of the different status codes on the web (most commonly a 404 or 403), and show them to your students using Chrome&#8217;s Developer Tools or the like.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_g_trust_models_and_open_source">g. Trust Models and Open Source</h4>
+<div class="paragraph">
+<p><em>Every open source piece of software is held to an "open standard" that the software will work in the way intended and not do anything malicious. This involves a significant amount of trust on our end, that whenever we compile a program or visit a website, the pieces of software we use are not injecting malicious code into our computers.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>In small groups, have students research a downloadable software or song. Let them read through the terms and conditions. What sort of things do we agree to that one would be surprised to see? Are we more trusting of certain things than others? What is this trust based on?</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_h_cybersecurity">h. Cybersecurity</h4>
+<div class="paragraph">
+<p><em>The Internet is a wonderful resource, but can also occasionally make us vulnerable if we are not following good practices. While we can limit vulnerability to attacks there are many security threats we cannot control and may not even be aware of.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Students tend to identify with stories they&#8217;ve heard; try to find a cyberattack that has been in the news recently and talk about it! You can probably find a video and show that as well</p>
+</div>
+<div class="paragraph">
+<div class="title">Demo: Insecurity</div>
+<p>Find an insecure website (non-https) desiring input of a password or credit card number to show your students how easy it is to spoof something that looks secure.</p>
+</div>
+<div class="paragraph">
+<div class="title">Demo: Permission Levels</div>
+<p>If you can display webpages on your localhost to students, you can demonstrate different permission levels on a simple page, talking about why it is beneficial to keep some pages private and only the necessary ones public.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_i_html">i. HTML</h4>
+<div class="paragraph">
+<p><em>HTML, or HyperText Markup Language, forms the backbone of web pages. It is used to make any web page you see by formatting all text and images. Students will learn how to create basic web pages using the language.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Discuss the differences between a mark up language and programming languages. Why do we need two separate languages to do different things? Maybe have students play around with <a href="https://www.khanacademy.org/computing/computer-programming/html-css/intro-to-html/p/html-basics">Khan Academy&#8217;s HTML module</a>.</p>
+</div>
+<div class="paragraph">
+<div class="title">Demo: Developer Tools</div>
+<p>Take a look at an existing website using Chrome&#8217;s Developer Tools and have your students figure out what the individual tags do.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_j_css">j. CSS</h4>
+<div class="paragraph">
+<p><em>CSS, or Cascading Style Sheets, is used to style web pages. It is capable of manipulating colors, positioning, size, alignment, fonts, borders, background shading, and others.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Have students discuss things that they were unable to do in HTML. Which of those things fall into a styling vs. programming language. How can CSS help? Maybe integrating aspects of <a href="https://www.khanacademy.org/computing/computer-programming/html-css/intro-to-css/p/css-basics">Khan Academy&#8217;s module on CSS</a>.</p>
+</div>
+<div class="paragraph">
+<div class="title">Demo: Webpage 2.0</div>
+<p>Similar to the HTML demonstration, you can create a simple webpage, this time including a CSS sheet to stylize.</p>
+</div>
+<div class="paragraph">
+<div class="title">Activity: Creativity</div>
+<p>Create a simple activity that allows students to be creative with their styling; they can make a basic webpage and choose colors, fonts, shading, etc.</p>
+</div>
+<hr>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_chapter_6_problem_solving_in_an_interconnected_world_completion_time_5_weeks">Chapter 6: Problem Solving in an Interconnected World (Completion Time: 5 Weeks)</h3>
+<div class="sect3">
+<h4 id="_central_focus_9">Central Focus</h4>
+<div class="paragraph">
+<p>Students will explore different aspects of building multilayered web pages such as those that manage data and have a back end. They will apply their knowledge of C to implement logic in new languages such as PHP, JavaScript, and Ajax.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_a_python">a. Python</h4>
+<div class="paragraph">
+<p>TODO</p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>TODO</p>
+</div>
+<div class="paragraph">
+<div class="title">Demo: Python Spell-Checker</div>
+<p>Implementing a spell-checker in PHP live in class can be a shocking and impactful demonstration, for those students who are familiar with the complexity of C&#8217;s implementation. <a href="http://cdn.cs50.net/2015/fall/lectures/7/w/src7w/mispellings/" class="bare">http://cdn.cs50.net/2015/fall/lectures/7/w/src7w/mispellings/</a></p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_b_python_for_web_programming">b. Python for Web Programming</h4>
+<div class="paragraph">
+<p>TODO</p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>TODO</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_c_sql">c. SQL</h4>
+<div class="paragraph">
+<p><em>SQL (the Structured Query Language) is a language that we can use to create, add to, select, modify, and delete information in connection with a database. By learning how to use SQL we can create a so-called "backend" for our websites, allowing us to store persistent user data (sort of like the notion of a FILE* in C) that we can access when necessary to improve the user experience on a page.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Open up phpMyAdmin in your IDE and demonstrate each of the basic operations (SELECT, INSERT, UPDATE, DELETE) using the graphical tabs. Then repeat all of the basic operations only using the SQL tab to show the text based power, so students will be able to contemplate how they might access their databases programmatically.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_d_mvc">d. MVC</h4>
+<div class="paragraph">
+<p><em>MVC, or the Model-View-Controller paradigm, is a software design practice that separates code for a website into three parts: the model code, the view code, and the controller code. The model code deals with the data of the website, often performing operations that interact with a database. The controller code is the logic of the website: it contains code like loops and conditions. The view code is the aesthetic part of the website: it takes information provided by the controller and displays the page that the user ultimately sees when they visit the website.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Using an example website, have students in small groups break down the features of the site into three parts: model code, view code, controller code. The model code deals with the data of the website, often performing operations that interact with a database. The controller code is the logic of the website: it contains code like loops and conditions. The view code is the aesthetic part of the website: it takes information provided by the controller and displays the page that the user ultimately sees when they visit the website.</p>
+</div>
+<div class="paragraph">
+<div class="title">Demo: Website 3</div>
+<p>Make a simple website using the MVC paradigm, or have your students do it themselves for practice.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_e_javascript">e. JavaScript</h4>
+<div class="paragraph">
+<p><em>Python gave us the opportunity to build dynamic websites, but JavaScript lets us take things even further, permitting client-side modifications to our web pages, making them more dynamic without requiring contact with a database or off-site server, which can greatly improve the user experience. In this module, students will get a very quick introduction to the basic power of JavaScript and the Document Object Model (DOM), which JavaScript is able to manipulate to literally change the contents of a website, albeit temporarily, in response to user interactions.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Show students side by side of C, Python, and JavaScript. Once again discuss similarities and differences. Maybe even using the inspect element in Chrome and changing some of the JavaScript, HTML, and CSS to see live changes.</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_f_ajax">f. Ajax</h4>
+<div class="paragraph">
+<p><em>Ajax (which formerly stood for Asynchronous JavaScript and XML) is a web programming technique that lets us dynamically update the content of the web page. We can make snappier web pages that do not reload every time additional content is requested. Here, we see how this technique can be accomplished using Javascript, in which an HTTP request is made asynchronously (in the background) to the server, and a callback function handles the JSON (JavaScript Object Notation) object that is returned.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Take the time to explain Client side and Server side systems. Have students find some examples of both. What are benefits and disadvantages of both?</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_g_artificial_intelligence">g. Artificial Intelligence</h4>
+<div class="paragraph">
+<p><em>Artificial intelligence is an example of how Computer Science concepts can be used to create global impact. CS50&#8217;s artificial intelligence material covers natural language processing, speech recognition, and game playing systems.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Have students discuss preconceived notions of AIs in small groups. What is the difference between a clever algorithm and artificial intelligence? Discuss as a class which of these notions are correct and incorrect and explore why.</p>
+</div>
+<div class="paragraph">
+<div class="title">Activity: Eliza</div>
+<p>Have students attempt to converse with Eliza:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://cdn.cs50.net/2015/fall/lectures/10/w/src10w/eliza.c.src">By compiling and running CS50&#8217;s C code</a>.</p>
+</li>
+<li>
+<p><a href="http://nlp-addiction.com/eliza/">By using a web implementation</a>.</p>
+</li>
+<li>
+<p><a href="http://chayden.net/eliza/Eliza.html">By running a Java executable</a>.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<div class="title">Activity: A Problem with Machine Learning</div>
+<p>Try to get your hands on a cheap device to turn your phone or mobile device into a means to watch VR video (such as google cardboard). You can even watch CS50 lectures in VR at video.cs50.net by changing the view mode in the bottom left corner. What fields might benefit from technologies like this?</p>
+</div>
+<hr>
+</div>
+<div class="sect3">
+<h4 id="_h_virtual_and_augmented_reality">h. Virtual and Augmented Reality</h4>
+<div class="paragraph">
+<p><em>Virtual and augmented reality has recently taken the world by storm. Virtual reality allows a user to jump into a three dimensional world so to speak to experience games, videos and other simulations in a new way. This year CS50 has produced all lectures in VR. If you go to <a href="https://video.cs50.net/" class="bare">https://video.cs50.net/</a> and click on the icon that looks like a VR headset you will experience lecture as though you are in Sander&#8217;s theatre. Augmented reality is similar in spirit to virtual reality, only that instead of taking you away from your surroundings completely, the effects, videos, or games are over layed to tie in your surroundings with the technology. In this module, students will explore the difference between the two and discover what advances can be made with this technology.</em></p>
+</div>
+<div class="paragraph">
+<div class="title">How to Launch the Lesson:</div>
+<p>Try to get your hands on a cheap device to turn your phone or mobile device into a means to watch VR video (such as google cardboard). You can even watch CS50 lectures in VR at video.cs50.net by changing the view mode in the bottom left corner. What fields might benefit from technologies like this?</p>
+</div>
+<hr>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_the_ap_csp_create_task">The AP CSP Create Task</h3>
+<div class="paragraph">
+<p>The Create Task comes in at the end of the core chapters, following Chapter 6. After completing Chapter 6, students have developed an entire toolbox of languages and platforms to build whatever they choose. While the majority of problems are very much structured and a have a well-defined solution, students engage a sense of creativity in the way that they implement their algorithms. Students understand that everyone may have a different approach to solving the same problem, but they could all be correct approaches. By the end of the course, students have dabbled in C and web development and have implemented algorithms to solve various problems. It is at this point that students are able to create a project that they are engaged in and are able to research new topics of interest that were not covered in-depth in the course.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2017-06-29 14:07:49 EDT
+</div>
+</div>
+</body>
+</html>
