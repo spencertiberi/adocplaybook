@@ -1,6 +1,6 @@
 = CS50 AP Playbook
 Spencer Tiberi <tiberi@cs50.harvard.edu> and Erin Carvalho <emc@cs50.harvard.edu>
-V 1.1, 6.20.2017
+V 2.0, 6.29.2017
 
 :toc: left 
 :toclevels: 3
@@ -16,11 +16,11 @@ CS50 AP is broken into seven chapters and two optional chapters.  Also essential
 ****
 *CS50 Puzzle Day* +
 *Chapter 0:* Computers and Computing +
+*AP CSP Explore Task* +
 *Chapter 1:* Building Blocks of Programming +
 *Chapter 2:* Putting the Blocks Together +
 *Chapter 3:* Thinking Computationally +
 *Chapter 4:* Design, Elegance, and Efficiency +
-*AP CSP Explore Task* +
 *Chapter 5:* Networking and the Internet +
 *Chapter 6:* Problem Solving in an Interconnected World +
 *AP CSP Create Task* +
