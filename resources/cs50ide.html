@@ -5,8 +5,8 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.5">
-<meta name="author" content="Spencer Tiberi &lt;tiberi@cs50.harvard.edu&gt; and Erin Carvalho &lt;emc@cs50.harvard.edu&gt;">
-<title>CS50 AP Playbook</title>
+<meta name="author" content="Spencer Tiberi">
+<title>The CS50 IDE</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -421,127 +421,159 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article">
 <div id="header">
-<h1>CS50 AP Playbook</h1>
+<h1>The CS50 IDE</h1>
 <div class="details">
-<span id="author" class="author">Spencer Tiberi &lt;tiberi@cs50.harvard.edu&gt; and Erin Carvalho &lt;emc@cs50.harvard.edu&gt;</span><br>
-<span id="revnumber">version 2.0,</span>
-<span id="revdate">6.29.2017</span>
+<span id="author" class="author">Spencer Tiberi</span><br>
+<span id="email" class="email"><a href="mailto:tiberi@cs50.harvard.edu">tiberi@cs50.harvard.edu</a></span><br>
+<span id="revnumber">version 1.1,</span>
+<span id="revdate">6.16.2017</span>
 </div>
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="_welcome">Welcome</h2>
+<h2 id="_what_is_it">What is it?</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>This playbook aims to help startup your CS50 AP course and create a CS50 experience at your school. This page should serve as a jump pad to all the contents of the playbook.</p>
+<p>The CS50 IDE (<a href="https://cs50.io" class="bare">https://cs50.io</a>) is a cloud-based Integrated Development Environment. It features an Ubuntu environment with a browser-based editor, that supports C (as well as python, html/css, JavaScript, and much more!) syntax highlighting and word completing, a GUI-based GDB debugger, and customizable options such as layouts, themes, and keyboard shortcuts. Users can continue working on problems even if they use different computers as it is cloud-based.  Students will be using the CS50 IDE throughout the school year for creation, debugging, collaboration, and submission of programs.</p>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_cs50_ap_overview">CS50 AP Overview</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>CS50 AP is broken into seven chapters and two optional chapters.  Also essential to CS50 AP are the various events that mirror the events held on campus at Harvard.  The following is a suggestled flow of topics, events, and AP CSP tasks for the school year.</p>
-</div>
-<div class="sidebarblock">
+<div class="imageblock">
 <div class="content">
-<div class="title">Year at a Glance</div>
-<div class="paragraph">
-<p><strong>CS50 Puzzle Day</strong><br>
-<strong>Chapter 0:</strong> Computers and Computing<br>
-<strong>Chapter 1:</strong> Building Blocks of Programming<br>
-<strong>Chapter 2:</strong> Putting the Blocks Together<br>
-<strong>Chapter 3:</strong> Thinking Computationally<br>
-<strong>Chapter 4:</strong> Design, Elegance, and Efficiency<br>
-<strong>AP CSP Explore Task</strong><br>
-<strong>Chapter 5:</strong> Networking and the Internet<br>
-<strong>Chapter 6:</strong> Problem Solving in an Interconnected World<br>
-<strong>AP CSP Create Task</strong><br>
-<strong>CS50 Hackathon</strong><br>
-<strong>CS50 Fair</strong><br>
-<strong>AP CSP Exam</strong><br>
-<strong>Chapter A:</strong> Managing Data (Optional)<br>
-<strong>Chapter B:</strong> Developer’s Toolbox (Optional)<br></p>
+<img src="https://manual.cs50.net/assets/night-mode.png" alt="CS50 IDE">
 </div>
-</div>
+<div class="title">hello.c on the CS50 IDE</div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_playbook_contents">Playbook Contents</h2>
+<h2 id="_cs50_ide_setup">CS50 IDE Setup</h2>
 <div class="sectionbody">
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p><a href="../curriculumstartup.html">Curriculum Overview and Startup Guide</a></p>
-</li>
-<li>
-<p><a href="../events/events.html">CS50 Events</a></p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p><a href="../events/puzzleday.html">CS50 Puzzle Day</a></p>
-</li>
-<li>
-<p><a href="../events/hackathon.html">CS50 Hackathon</a></p>
-</li>
-<li>
-<p><a href="../events/cs50fair.html">CS50 Fair</a></p>
-</li>
-</ol>
+<div class="paragraph">
+<p>Before your students can access the full functionality of the CS50 IDE, you’ll want to make sure your school or district can whitelist the following websites:</p>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>*.edx.org</p>
 </li>
 <li>
-<p><a href="../apcsp.html">Information on AP CSP</a></p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>Performance Tasks</p>
-<div class="olist lowerroman">
-<ol class="lowerroman" type="i">
-<li>
-<p>Explore Task</p>
+<p>*.edx.org</p>
 </li>
 <li>
-<p>Create Task</p>
+<p>*.c9.io</p>
 </li>
-</ol>
+<li>
+<p>*.cs50.io</p>
+</li>
+<li>
+<p>*.github.com</p>
+</li>
+<li>
+<p>*.cs50.me</p>
+</li>
+</ul>
 </div>
-</li>
-<li>
-<p>AP Exam</p>
-</li>
-</ol>
+<div class="paragraph">
+<p>To have your students set up the CS50 IDE you’ll want them to do the following:</p>
 </div>
-</li>
-<li>
-<p>Technology and Resources</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p><a href="../resources/whitelist.html">Website Whitelist</a></p>
-</li>
-<li>
-<p><a href="../resources/cs50ide.html">CS50 IDE</a></p>
-</li>
-<li>
-<p><a href="../resources/cs50.me.html">CS50.me</a></p>
-</li>
-<li>
-<p><a href="../resources/git.html">Git</a></p>
-</li>
-</ol>
+<div class="paragraph">
+<p><strong>1. <a href="https://courses.edx.org/register">Create an edX account</a></strong></p>
 </div>
-</li>
-</ol>
+<div class="paragraph">
+<p><em>edX is a MOOC (Massive Open Online Course) provider created by MIT and Harvard University. An edX account is free to sign up for and students can use their Facebook, Google, or Microsoft credentials to register for an account or create one from scratch. Students will use the login credentials for edX to access their personal CS50 IDE.</em></p>
+</div>
+<div class="paragraph">
+<p><strong>2. <a href="https://manual.cs50.net/cs50-ide/online.html">Set up the CS50 IDE and tour its features</a></strong></p>
+</div>
+<div class="paragraph">
+<p><em>Logging into and updating the CS50 IDE is all students need to do in order to set up the IDE.  At this time, it would be beneficial to have students tour some features of the IDE and become comfortable with updating, working with files, opening and using terminals, customizing the workspace, etc.</em></p>
+</div>
+<div class="paragraph">
+<p>For future access to the CS50 IDE, students simply login using their edX credentials at <a href="https://cs50.io" class="bare">https://cs50.io</a>.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+You will likely want to follow the same steps as your students to get a good feel for the usage of the CS50 IDE as both you and your students will be interacting with the IDE on a daily basis during the school year.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_commands">Commands</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The CS50 IDE supports the following useful commands that can be written in the terminal:</p>
+</div>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Command</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* <strong>check50</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Runs tests on code to check for <strong>correctness</strong>.</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>check50 file_name</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* <strong>debug50</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Runs the GDB debugger.</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>debug50 file_name</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* <strong>help50</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Provides help on command usage.</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>help50 command_name</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* <strong>style50</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Checks if student code conforms to CS50&#8217;s style guide.</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>style50 file_name</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* <strong>submit50</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Allows students to sumbit code to <a href="https://cs50.me"><strong>cs50.me</strong></a>.</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>submit50 problem_name</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* <strong>update50</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Updates the IDE to the current version.</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>update50</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_more_information">More Information</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>If you want more information on how to use the online CS50 IDE, please visit <a href="https://manual.cs50.net/cs50-ide/online.html">our manual page</a>.</p>
+</div>
+<div class="paragraph">
+<p>You can also download an <a href="https://manual.cs50.net/cs50-ide/offline.html">offline version</a> of the CS50 IDE using Docker if need be!</p>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 2.0<br>
-Last updated 2017-06-29 14:59:26 EDT
+Version 1.1<br>
+Last updated 2017-06-29 13:37:28 EDT
 </div>
 </div>
 </body>

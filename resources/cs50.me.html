@@ -5,8 +5,8 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.5">
-<meta name="author" content="Spencer Tiberi &lt;tiberi@cs50.harvard.edu&gt; and Erin Carvalho &lt;emc@cs50.harvard.edu&gt;">
-<title>CS50 AP Playbook</title>
+<meta name="author" content="Spencer Tiberi">
+<title>CS50.me</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -421,127 +421,71 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article">
 <div id="header">
-<h1>CS50 AP Playbook</h1>
+<h1>CS50.me</h1>
 <div class="details">
-<span id="author" class="author">Spencer Tiberi &lt;tiberi@cs50.harvard.edu&gt; and Erin Carvalho &lt;emc@cs50.harvard.edu&gt;</span><br>
-<span id="revnumber">version 2.0,</span>
-<span id="revdate">6.29.2017</span>
+<span id="author" class="author">Spencer Tiberi</span><br>
+<span id="email" class="email"><a href="mailto:tiberi@cs50.harvard.edu">tiberi@cs50.harvard.edu</a></span><br>
+<span id="revnumber">version 1.0,</span>
+<span id="revdate">6.22.2017</span>
 </div>
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="_welcome">Welcome</h2>
+<h2 id="_what_is_it">What is it?</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>This playbook aims to help startup your CS50 AP course and create a CS50 experience at your school. This page should serve as a jump pad to all the contents of the playbook.</p>
+<p><a href="https://CS50.me"><strong>CS50.me</strong></a> is a grading and reporting platform for CS50. Both students and teachers log in to CS50.me using their <a href="https://github.com">github</a> credentials. Students will have access to their grades for problems broken down into the axes of <strong>Correctness</strong>, <strong>Design</strong>, and <strong>Style</strong>.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_cs50_ap_overview">CS50 AP Overview</h2>
+<h2 id="_breif_overview_of_features">Breif Overview of Features</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>CS50 AP is broken into seven chapters and two optional chapters.  Also essential to CS50 AP are the various events that mirror the events held on campus at Harvard.  The following is a suggestled flow of topics, events, and AP CSP tasks for the school year.</p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Correctness</strong> is automatically graded when student uses submit50 to submit a finished problem through the CS50 IDE. These scores will populate for the respective problem in CS50.me. However, teachers have the ability to change grades if need be.</p>
+</li>
+<li>
+<p><strong>Style</strong> is also automatically graded and populated when student uses submit50 to submit a finished problem through the CS50 IDE. Again, teachers have the ability to change grades if need be.</p>
+</li>
+</ul>
 </div>
-<div class="sidebarblock">
+</div>
+</div>
+<div class="sect1">
+<h2 id="_quick_tour">Quick Tour</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_gradebook">Gradebook</h3>
+<div class="imageblock">
 <div class="content">
-<div class="title">Year at a Glance</div>
-<div class="paragraph">
-<p><strong>CS50 Puzzle Day</strong><br>
-<strong>Chapter 0:</strong> Computers and Computing<br>
-<strong>Chapter 1:</strong> Building Blocks of Programming<br>
-<strong>Chapter 2:</strong> Putting the Blocks Together<br>
-<strong>Chapter 3:</strong> Thinking Computationally<br>
-<strong>Chapter 4:</strong> Design, Elegance, and Efficiency<br>
-<strong>AP CSP Explore Task</strong><br>
-<strong>Chapter 5:</strong> Networking and the Internet<br>
-<strong>Chapter 6:</strong> Problem Solving in an Interconnected World<br>
-<strong>AP CSP Create Task</strong><br>
-<strong>CS50 Hackathon</strong><br>
-<strong>CS50 Fair</strong><br>
-<strong>AP CSP Exam</strong><br>
-<strong>Chapter A:</strong> Managing Data (Optional)<br>
-<strong>Chapter B:</strong> Developer’s Toolbox (Optional)<br></p>
+<img src="assets/cs50megradebook.png" alt="CS50 IDE">
 </div>
+<div class="title">cs50student1&#8217;s empty gradebook on CS50.me</div>
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_playbook_contents">Playbook Contents</h2>
+<h2 id="_submission_of_assignments_and_grading">Submission of Assignments and Grading</h2>
 <div class="sectionbody">
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p><a href="../curriculumstartup.html">Curriculum Overview and Startup Guide</a></p>
-</li>
-<li>
-<p><a href="../events/events.html">CS50 Events</a></p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p><a href="../events/puzzleday.html">CS50 Puzzle Day</a></p>
-</li>
-<li>
-<p><a href="../events/hackathon.html">CS50 Hackathon</a></p>
-</li>
-<li>
-<p><a href="../events/cs50fair.html">CS50 Fair</a></p>
-</li>
-</ol>
+<div class="paragraph">
+<p>Each student enrolled in a section created by the teacher has access to their own gradebook.  When a student submits code from their IDE using the <code>submit50</code> command, the assignment is automatically graded on the axes of <strong>Correctness</strong> and <strong>Style</strong>. These scores may be changed if the teacher so desires. This leaves only the <strong>Design</strong> aspect of the code to be scored by the teacher.</p>
 </div>
-</li>
-<li>
-<p><a href="../apcsp.html">Information on AP CSP</a></p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>Performance Tasks</p>
-<div class="olist lowerroman">
-<ol class="lowerroman" type="i">
-<li>
-<p>Explore Task</p>
-</li>
-<li>
-<p>Create Task</p>
-</li>
-</ol>
+<div class="paragraph">
+<p>To aid in grading for <strong>Design</strong>, teachers may comment student submissions though CS50.me.</p>
 </div>
-</li>
-<li>
-<p>AP Exam</p>
-</li>
-</ol>
-</div>
-</li>
-<li>
-<p>Technology and Resources</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p><a href="../resources/whitelist.html">Website Whitelist</a></p>
-</li>
-<li>
-<p><a href="../resources/cs50ide.html">CS50 IDE</a></p>
-</li>
-<li>
-<p><a href="../resources/cs50.me.html">CS50.me</a></p>
-</li>
-<li>
-<p><a href="../resources/git.html">Git</a></p>
-</li>
-</ol>
-</div>
-</li>
-</ol>
+<div class="paragraph">
+<p>For more information on usage of CS50.me, <a href="https://path/to/cs50.me/manual">check out its manual</a>.</p>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 2.0<br>
-Last updated 2017-06-29 14:59:26 EDT
+Version 1.0<br>
+Last updated 2017-06-29 13:37:40 EDT
 </div>
 </div>
 </body>
