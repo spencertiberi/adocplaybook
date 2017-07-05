@@ -1,24 +1,21 @@
 = Websites to Whitelist
-Spencer Tiberi <tiberi@cs50.harvard.edu> 
-V 1.0, 6.15.2017
+V 2.0, 7.5.2017
  
 To properly set up the CS50 student experience, be sure to have your school or district whitelist the following websites.
+
+
+|===
+|Programming and Debugging |Grading and Submission of Assignments |Reference and Course Materials
  
-.For Programming and Debugging
-****
-- *.edx.org
-- *.c9.io
-- *.cs50.io
-****
-
-.For Grading and Submission
-****
-- *.github.com
-- *.cs50.me
-****
-
-.For Reference and Course Materials
-****
-- *.cs50.harvard.edu
-- *.cs50.net
-****
+|*.edx.org
+|*.github.com
+|*.cs50.harvard.edu
+ 
+|*.c9.io
+|*.cs50.me
+|*.cs50.net
+ 
+|*.cs50.io
+|
+|*.cs50.tv
+|===
