@@ -1,9 +1,8 @@
-= CS50 AP Fair
-Spencer Tiberi <tiberi@cs50.harvard.edu> and Erin Carvalho <emc@cs50.harvard.edu>
-V 1.0, 6.16.2017
-
 :toc: left 
 :toclevels: 3
+
+= CS50 AP Fair
+V 1.0, 6.16.2017
 
 == What is it?
 
@@ -176,7 +175,6 @@ A social media presence at events not only excites current students but it can a
 
 * [ ] Walk around putting out fires (hopefully not literally).
 * [ ] Be sure to take lots of pictures and video if possible!
-
 
 ==== 1 Hour In
 

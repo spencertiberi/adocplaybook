@@ -1,9 +1,8 @@
-= CS50 AP Hackathon 
-Spencer Tiberi <tiberi@cs50.harvard.edu> and Erin Carvalho <emc@cs50.harvard.edu>
-V 1.1, 6.19.2017
-
 :toc: left 
 :toclevels: 3
+
+= CS50 AP Hackathon 
+V 1.1, 6.19.2017
 
 == What is it?
 

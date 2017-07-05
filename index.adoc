@@ -1,5 +1,4 @@
 = CS50 AP Playbook
-Spencer Tiberi <tiberi@cs50.harvard.edu> and Erin Carvalho <emc@cs50.harvard.edu>
 V 2.0, 6.29.2017
 
 :toc: left 
@@ -33,21 +32,23 @@ CS50 AP is broken into seven chapters and two optional chapters.  Also essential
 
 == Playbook Contents
 
-. ../curriculumstartup.html[Curriculum Overview and Startup Guide]
+. link:../curriculumstartup.html[Curriculum Overview and Startup Guide]
 
-. https://cs50.harvard.edu/ap/path/to/events.html[CS50 Events]
-.. https://cs50.harvard.edu/ap/path/to/puzzleday.html[CS50 Puzzle Day]
-.. https://cs50.harvard.edu/ap/path/to/hackathon.html[CS50 Hackathon]
-.. https://cs50.harvard.edu/ap/path/to/cs50fair.html[CS50 Fair]
+. link:../grading.html[Grading]
 
-. https://cs50.harvard.edu/ap/path/to/apcsp.html[Information on AP CSP]
+. link:../events/events.html[CS50 Events]
+.. link:../events/puzzleday[CS50 Puzzle Day]
+.. link:../events/hackathon[CS50 Hackathon]
+.. link:../events/cs50fair[CS50 Fair]
+
+. link:../events/apcsp[Information on AP CSP]
 .. Performance Tasks
 ... Explore Task
 ... Create Task
 .. AP Exam
 
 . Technology and Resources
-.. https://cs50.harvard.edu/ap/path/to/whitelist.html[Website Whitelist]
-.. https://cs50.harvard.edu/ap/path/to/cs50ide.html[CS50 IDE]
-.. https://cs50.harvard.edu/ap/path/to/cs50.me.html[CS50.me]
-.. https://cs50.harvard.edu/ap/path/to/git.html[Git]
+.. link:../resources/whitelist.html[Website Whitelist]
+.. link:../resources/cs50ide.html[CS50 IDE]
+.. link:../resources/cs50.me.html[CS50.me]
+.. link:../resources/git.html[Git]

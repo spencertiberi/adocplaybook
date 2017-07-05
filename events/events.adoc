@@ -1,5 +1,4 @@
 = CS50 Events
-Spencer Tiberi <tiberi@cs50.harvard.edu>
 V 1.1, 6.20.2017
 
 == Purpose

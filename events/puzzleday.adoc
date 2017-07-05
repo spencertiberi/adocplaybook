@@ -1,9 +1,8 @@
-= CS50 AP Puzzle Day
-Spencer Tiberi <tiberi@cs50.harvard.edu> and Erin Carvalho <emc@cs50.harvard.edu>
-V 1.0, 6.15.2017
-
 :toc: left 
 :toclevels: 3
+
+= CS50 AP Puzzle Day
+V 1.0, 6.15.2017
 
 == What is it?
 
