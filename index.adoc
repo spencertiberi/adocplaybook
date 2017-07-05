@@ -37,11 +37,11 @@ CS50 AP is broken into seven chapters and two optional chapters.  Also essential
 . link:../grading.html[Grading]
 
 . link:../events/events.html[CS50 Events]
-.. link:../events/puzzleday[CS50 Puzzle Day]
-.. link:../events/hackathon[CS50 Hackathon]
-.. link:../events/cs50fair[CS50 Fair]
+.. link:../events/puzzleday.html[CS50 Puzzle Day]
+.. link:../events/hackathon.html[CS50 Hackathon]
+.. link:../events/cs50fair.html[CS50 Fair]
 
-. link:../events/apcsp[Information on AP CSP]
+. link:../apcsp.html[Information on AP CSP]
 .. Performance Tasks
 ... Explore Task
 ... Create Task
