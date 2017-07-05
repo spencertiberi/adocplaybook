@@ -1,8 +1,8 @@
-= CS50 AP Playbook
-V 2.0, 6.29.2017
-
 :toc: left 
 :toclevels: 3
+
+= CS50 AP Playbook
+V 2.0, 6.29.2017
 
 == Welcome
 This playbook aims to help startup your CS50 AP course and create a CS50 experience at your school. This page should serve as a jump pad to all the contents of the playbook.
@@ -51,4 +51,3 @@ CS50 AP is broken into seven chapters and two optional chapters.  Also essential
 .. link:../resources/whitelist.html[Website Whitelist]
 .. link:../resources/cs50ide.html[CS50 IDE]
 .. link:../resources/cs50.me.html[CS50.me]
-.. link:../resources/git.html[Git]
