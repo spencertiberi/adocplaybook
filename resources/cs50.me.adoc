@@ -8,7 +8,7 @@ V 1.0, 6.22.2017
  
 https://CS50.me[*CS50.me*] is a grading and reporting platform for CS50. Both students and teachers log in to CS50.me using their https://github.com[github] credentials. Students will have access to their grades for problems broken down into the axes of *Correctness*, *Design*, and *Style*.
 
-== Breif Overview of Features
+== Brief Overview of Features
 * *Correctness* is automatically graded when student uses submit50 to submit a finished problem through the CS50 IDE. These scores will populate for the respective problem in CS50.me. However, teachers have the ability to change grades if need be.
 
 * *Style* is also automatically graded and populated when student uses submit50 to submit a finished problem through the CS50 IDE. Again, teachers have the ability to change grades if need be.
