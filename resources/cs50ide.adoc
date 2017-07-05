@@ -1,9 +1,8 @@
-= The CS50 IDE
-Spencer Tiberi <tiberi@cs50.harvard.edu> 
-V 1.1, 6.16.2017
-
 :toc: left 
 :toclevels: 3
+
+= The CS50 IDE
+V 1.1, 6.16.2017
 
 == What is it?
  
