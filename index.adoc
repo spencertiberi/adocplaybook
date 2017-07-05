@@ -32,22 +32,22 @@ CS50 AP is broken into seven chapters and two optional chapters.  Also essential
 
 == Playbook Contents
 
-. link:../curriculumstartup.html[Curriculum Overview and Startup Guide]
+=== 1. link:../curriculumstartup.html[Curriculum Overview and Startup Guide]
 
-. link:../grading.html[Grading]
+=== 2. link:../grading.html[Grading]
 
-. link:../events/events.html[CS50 Events]
+=== 3. link:../events/events.html[CS50 Events]
 .. link:../events/puzzleday.html[CS50 Puzzle Day]
 .. link:../events/hackathon.html[CS50 Hackathon]
 .. link:../events/cs50fair.html[CS50 Fair]
 
-. link:../apcsp.html[Information on AP CSP]
+=== 4. link:../apcsp.html[Information on AP CSP]
 .. Performance Tasks
 ... Explore Task
 ... Create Task
 .. AP Exam
 
-. Technology and Resources
+=== 5. Technology and Resources
 .. link:../resources/whitelist.html[Website Whitelist]
 .. link:../resources/cs50ide.html[CS50 IDE]
 .. link:../resources/cs50.me.html[CS50.me]
