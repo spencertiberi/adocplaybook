@@ -1,7 +1,7 @@
-= AP Computer Science Principles (CSP)
-
 :toc: left 
 :toclevels: 3
+
+= AP Computer Science Principles (CSP)
 
 == CS50 and College Board
 *CS50 AP* is a *College Board* endorsed curriculum for *AP Computer Science Principles (CSP)*. AP CSP requires the sufficient completion of two performance tasks and an exam to recieve college credit for the course. This page gives additional information on how prepare your students to complete these tasks and exam sufficiently.
