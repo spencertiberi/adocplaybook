@@ -5,4 +5,12 @@
 
 So it begins. You're about to stand in front of a group and say "This is CS50." This is a short list of things to consider to help this day go smoothly.
 
-== Derp
+== Websites to Whitelist
+
+== Checklist
+
+* [ ] Websites whitelisted
+* [ ] Obtained CS50 swag (email ap@cs50.harvard.edu if not)
+* [ ] Plan a link:../events/puzzleday.html[puzzleday]
+* [ ] Review link:../curriculumstartup.html#_chapter_0_computers_and_computing_completion_time_3_weeks[Chapter 0 materials]
+
