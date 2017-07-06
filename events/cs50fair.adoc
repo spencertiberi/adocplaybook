@@ -9,7 +9,7 @@ The culminating event for CS50 at Harvard and Yale is the CS50 fair, in which st
 
 .Students display their projects during CS50 Fair 2016
 [caption=""]
-image::https://cdn-images-1.medium.com/max/2000/1*jkzIq70CSqQzQuhZHbH6fg.jpeg[CS50 Fair 2016]
+image::https://cdn-images-1.medium.com/max/2000/1*jkzIq70CSqQzQuhZHbH6fg.jpeg[CS50 Fair 2016,500]
 
 == Things to Consider When Planning a CS50 AP Hackathon
 === Student Projects

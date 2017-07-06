@@ -5,23 +5,24 @@ Events are an essential part of the CS50 AP experience. They help develop a rich
 
 == Event Info
 
-.link:../events/puzzleday.html[CS50 Puzzle Day]
-****
+|*link:../events/puzzleday.html[CS50 Puzzle Day]*
+
 .Students work on puzzles during CS50 Puzzle Day 2016
 [caption=""]
-image::https://photos.smugmug.com/CS50-Puzzle-Day-2016-JH/i-Zc6rxDT/0/2b5c12e9/X3/2016_9_puzzle_day_jh-46-X3.jpg[Puzzle Day]
-****
+image::https://photos.smugmug.com/CS50-Puzzle-Day-2016-JH/i-Zc6rxDT/0/2b5c12e9/X3/2016_9_puzzle_day_jh-46-X3.jpg[Puzzle Day,500]
 
-.link:../events/hackathon.html[CS50 Hackathon]
-****
+---
+
+*link:../events/hackathon.html[CS50 Hackathon]*
+
 .Students enjoy well-deserved IHOP at the end of the all-night CS50 Hackathon
 [caption=""]
-image::https://photos.smugmug.com/CS50-Hackathon-2014-Moon/i-xcT5hhq/0/89cc4f97/X3/cs50hack-3659-X3.jpg[Students enjoy well-deserved IHOP at the end of the all-night CS50 Hackathon]
-****
+image::https://photos.smugmug.com/CS50-Hackathon-2014-Moon/i-xcT5hhq/0/89cc4f97/X3/cs50hack-3659-X3.jpg[Students enjoy well-deserved IHOP at the end of the all-night CS50 Hackathon,500]
 
-.link:../events/cs50fair.html[CS50 Fair]
-****
+---
+
+*link:../events/cs50fair.html[CS50 Fair]*
+
 .Students display their projects at the 2016 CS50 Fair
 [caption=""]
-image::https://photos.smugmug.com/CS50-Fair-2016-AS/i-29kZNS3/0/76be3ef2/X3/4Q3A4803-X3.jpg[CS50 Fair 2015]
-****
+image::https://photos.smugmug.com/CS50-Fair-2016-AS/i-29kZNS3/0/76be3ef2/X3/4Q3A4803-X3.jpg[CS50 Fair 2015,500]
