@@ -9,7 +9,6 @@ So it begins. You're about to stand in front of a group and say "This is CS50." 
 
 To properly set up the CS50 student experience, be sure to have your school or district whitelist the following websites.
 
-
 |===
 |Programming and Debugging |Grading and Submission of Assignments |Reference and Course Materials
  
