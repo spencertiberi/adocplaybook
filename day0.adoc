@@ -1,0 +1,8 @@
+:toc: left 
+:toclevels: 3
+
+= Day 0
+
+So it begins. You're about to stand in front of a group and say "This is CS50." This is a short list of things to consider to help this day go smoothly.
+
+== Derp

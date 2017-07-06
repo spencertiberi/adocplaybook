@@ -31,6 +31,8 @@ CS50 AP is broken into seven chapters with two optional chapters.  Also essentia
 
 == Playbook Contents
 
+=== 0. link:../day0.html[Day 0 Help Guide]
+
 === 1. link:../curriculumstartup.html[Curriculum Overview and Startup Guide]
 
 === 2. link:../grading.html[Grading]
