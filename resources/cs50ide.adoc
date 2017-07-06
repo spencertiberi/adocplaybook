@@ -45,39 +45,39 @@ The CS50 IDE supports the following useful commands that can be written in the t
 |===
 |Command | Description| Example
 
-|*`./[program_name]`*
+|`./[program_name]`
 |_Runs C programs._
 |`./hello`
 
-|*`check50 [problem_name] [file_name]`0*
+|`check50 [problem_name] [file_name]`
 |_Runs code through test cases to check for *correctness*._
 |`check50 cs50/2017/ap/hello hello.c`
 
-|*`debug50 file_name`*
+|`debug50 file_name`
 |_Runs the GDB debugger._
 |`debug50 file_name`
 
-|*`help50 [command_line_arguments]`*
+|`help50 [command_line_arguments]`
 |_Provides help for error messages._
 |`help50 make hello`
 
-|*`make [program_name]`*
+|`make [program_name]`
 |_Compiles C programs._
 |`make hello`
 
-|*`python [file_name]`*
+|`python [file_name]`
 |_Runs python programs._
 |`python hello.py`
 
-|*`style50 [file_name]*
+|`style50 [file_name]`
 |_Checks if student code conforms to CS50's style guide._
 |`style50 hello.c`
 
-|*submit50 [TBD]*
+|`submit50 [TBD]`
 |_Allows students to sumbit code to https://cs50.me[*cs50.me*]._
 |`TBD`
 
-|* *update50*
+|`update50`
 |_Updates the IDE to the current version._
 |`update50`
 |===
