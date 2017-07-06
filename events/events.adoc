@@ -5,7 +5,7 @@ Events are an essential part of the CS50 AP experience. They help develop a rich
 
 == Event Info
 
-|*link:../events/puzzleday.html[CS50 Puzzle Day]*
+*link:../events/puzzleday.html[CS50 Puzzle Day]*
 
 .Students work on puzzles during CS50 Puzzle Day 2016
 [caption=""]
