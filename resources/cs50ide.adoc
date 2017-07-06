@@ -42,6 +42,7 @@ NOTE: You will likely want to follow the same steps as your students to get a go
 
 The CS50 IDE supports the following useful commands that can be written in the terminal:
 
+[cols='2,1,2']
 |===
 |Command | Description| Example
 
