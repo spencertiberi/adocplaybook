@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.5">
-<meta name="author" content="V 1.1, 6.16.2017">
+<meta name="author" content="V 1.2, 7.5.2017">
 <title>The CS50 IDE</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -423,7 +423,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="header">
 <h1>The CS50 IDE</h1>
 <div class="details">
-<span id="author" class="author">V 1.1, 6.16.2017</span><br>
+<span id="author" class="author">V 1.2, 7.5.2017</span><br>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
@@ -526,34 +526,49 @@ You will likely want to follow the same steps as your students to get a good fee
 <tr>
 <th class="tableblock halign-left valign-top">Command</th>
 <th class="tableblock halign-left valign-top">Description</th>
-<th class="tableblock halign-left valign-top">Usage</th>
+<th class="tableblock halign-left valign-top">Example</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">* <strong>check50</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Runs tests on code to check for <strong>correctness</strong>.</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>check50 file_name</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><code>./[program_name]</code></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Runs C programs.</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>./hello</code></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">* <strong>debug50</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>`check50 [problem_name] [file_name]`0</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Runs code through test cases to check for <strong>correctness</strong>.</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>check50 cs50/2017/ap/hello hello.c</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><code>debug50 file_name</code></strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><em>Runs the GDB debugger.</em></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>debug50 file_name</code></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">* <strong>help50</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Provides help on command usage.</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>help50 command_name</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><code>help50 [command_line_arguments]</code></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Provides help for error messages.</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>help50 make hello</code></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">* <strong>style50</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><code>make [program_name]</code></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Compiles C programs.</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>make hello</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><code>python [file_name]</code></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Runs python programs.</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>python hello.py</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>`style50 [file_name]</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><em>Checks if student code conforms to CS50&#8217;s style guide.</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>style50 file_name</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>style50 hello.c</code></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">* <strong>submit50</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>submit50 [TBD]</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><em>Allows students to sumbit code to <a href="https://cs50.me"><strong>cs50.me</strong></a>.</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>submit50 problem_name</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>TBD</code></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">* <strong>update50</strong></p></td>
@@ -578,7 +593,7 @@ You will likely want to follow the same steps as your students to get a good fee
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2017-07-05 14:35:29 EDT
+Last updated 2017-07-05 22:31:10 EDT
 </div>
 </div>
 </body>
