@@ -1,5 +1,4 @@
 = CS50 Events
-V 1.1, 6.20.2017
 
 == Purpose
 Events are an essential part of the CS50 AP experience. They help develop a rich culture and play a crutial part in expanding the course. The following CS50 events are held annually on campus at Harvard. Click the events to learn more information about bringing each event to your school.

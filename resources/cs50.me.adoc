@@ -2,7 +2,6 @@
 :toclevels: 3
 
 = CS50.me
-V 1.0, 6.22.2017
 
 == What is it?
  

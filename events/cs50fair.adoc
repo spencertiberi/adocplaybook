@@ -2,7 +2,6 @@
 :toclevels: 3
 
 = CS50 AP Fair
-V 1.0, 6.16.2017
 
 == What is it?
 

@@ -1,5 +1,4 @@
 = Websites to Whitelist
-V 2.0, 7.5.2017
  
 To properly set up the CS50 student experience, be sure to have your school or district whitelist the following websites.
 
