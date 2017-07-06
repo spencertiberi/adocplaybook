@@ -7,6 +7,25 @@ So it begins. You're about to stand in front of a group and say "This is CS50." 
 
 == Websites to Whitelist
 
+To properly set up the CS50 student experience, be sure to have your school or district whitelist the following websites.
+
+
+|===
+|Programming and Debugging |Grading and Submission of Assignments |Reference and Course Materials
+ 
+|*.edx.org
+|*.github.com
+|*.cs50.harvard.edu
+ 
+|*.c9.io
+|*.cs50.me
+|*.cs50.net
+ 
+|*.cs50.io
+|
+|*.cs50.tv
+|===
+
 == Checklist
 
 * [ ] Websites whitelisted
@@ -16,4 +35,3 @@ So it begins. You're about to stand in front of a group and say "This is CS50." 
 * [ ] Ensure website is set up
 * [ ] Ensure CS50.me is set up
 * [ ] Have students link:../resources/cs50ide.html#_cs50_ide_setup[register for edX] in order to use the CS50 IDE.
-

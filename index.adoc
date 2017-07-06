@@ -49,7 +49,6 @@ CS50 AP is broken into seven chapters with two optional chapters.  Also essentia
 * AP Exam
 
 === 5. Technology and Resources
-* link:../resources/whitelist.html[Website Whitelist]
 * link:../resources/cs50ide.html[CS50 IDE]
 * link:../resources/cs50.me.html[CS50.me]
 
