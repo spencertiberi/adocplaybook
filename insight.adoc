@@ -2,6 +2,7 @@
 :toclevels: 3
 
 = CS50 AP Teacher Insight
+
 Know that you are not alone as a member of the CS50 AP teaching corps. Indeed, this playbook was written by a CS50 AP educator. Here are some insights and pro tips from CS50 AP educators, both former and current.
 
 == Derp
