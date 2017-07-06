@@ -1,8 +1,24 @@
 :toc: left 
 :toclevels: 3
 
-= CS50 AP Teacher Insight
+= CS50 AP Teacher Insights
 
 Know that you are not alone as a member of the CS50 AP teaching corps. Indeed, this playbook was written by a CS50 AP educator. Here are some insights and pro tips from CS50 AP educators, both former and current.
 
-== Derp
+== School and District Administration
+
+Some CS50 AP teachers are lucky to have the full support from school and/or district administration. Others, not so much. For planning events, grading policies, establishing a rich culture, and ensuring access to technology, administration support is increadibly helpful. Your excitement can go a long way to sell the course. CS50 is always willing to aid in convicing administration to properly support the course. If you would like CS50 to write a letter with Harvard's letterhead to aid in your dialog with administration, feel free to email a request to ap@cs50.harvard.edu.
+
+== Being Less Comfortable with Concepts
+
+Not unlike many CS50 AP students, you may find yourself on the side of Less Comfortable with teaching a particular concept. This is absolutely okay! We've all been there. We at CS50 are here to help provide you with as many resources as possible. Here are some of the resources at your disposal:
+
+* https://ap.cs50.net/[*CS50 AP Portal*] for access to AP specific resources such as problems and presentations.
+* https://openid.edx.org/openid/provider/login/?openid.assoc_handle=%7BHMAC-SHA1%7D%7B595e5112%7D%7BV3n3%2Fw%3D%3D%7D&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.sreg=http%3A%2F%2Fopenid.net%2Fextensions%2Fsreg%2F1.1&openid.realm=http%3A%2F%2Fapps.cs50.edx.org%2F&openid.return_to=http%3A%2F%2Fapps.cs50.edx.org%2Freturn%2F1%3Fjanrain_nonce%3D2017-07-06T18%253A00%253A24ZwHxugj&openid.sreg.required=email%2Cfullname[*Discuss50*] (soon to undergo upgrades!) to communicate with CS50 AP staff and educators from around the world.
+* http://cs50.tv[*CS50.tv*] for access to resources such as lectures and problem sets from previous iterations of CS50 at Harvard.
+
+Also feel free to reach out and email ap@cs50.harvard.edu for help and advice.
+
+== Suggested Technology
+
+
