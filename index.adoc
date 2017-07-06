@@ -2,7 +2,7 @@
 :toclevels: 3
 
 = CS50 AP Playbook
-V 2.1, 7.5.2017
+V 1.4, 7.5.2017
 
 == Welcome
 This playbook aims to help startup your CS50 AP course and create a CS50 experience at your school. This page should serve as a jump pad to all the contents of the playbook.
