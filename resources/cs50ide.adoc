@@ -2,7 +2,7 @@
 :toclevels: 3
 
 = The CS50 IDE
-V 1.2, 7.5.2017
+V 1.3, 7.5.2017
 
 == What is it?
  
@@ -36,7 +36,7 @@ _Logging into and updating the CS50 IDE is all students need to do in order to s
  
 For future access to the CS50 IDE, students simply login using their edX credentials at https://cs50.io.
  
-NOTE: You will likely want to follow the same steps as your students to get a good feel for the usage of the CS50 IDE as both you and your students will be interacting with the IDE on a daily basis during the school year.
+NOTE: You will likely want to follow the same steps as your students to get a good feel for the usage of the CS50 IDE. Both you and your students will likely be interacting with the IDE on a daily basis during the school year.
 
 == Commands
 
