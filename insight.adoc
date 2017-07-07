@@ -21,6 +21,8 @@ Also feel free to reach out and email ap@cs50.harvard.edu for help and advice.
 
 == Suggested Technology
 
+When planning for CS50 AP, it is advantageous to keep technological resources in mind. Luckily, with the CS50 IDE being cloud-based, there are very little hardware requirements for students to code and submit their work. As long as the students have a device that can access the internet via a web browser, they should be able to code on it. The choice of device will not impact how the IDE runs.  However, it is easier to code with a physical keyboard, so a more traditional computer or laptop is suggested.
+
 == Process of Whitelisting Websites
 
 == Importance of Events
