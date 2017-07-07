@@ -23,15 +23,24 @@ Also feel free to reach out and email ap@cs50.harvard.edu for help and advice.
 
 When planning for CS50 AP, it is advantageous to keep technological resources in mind. Luckily, with the CS50 IDE being cloud-based, there are very little hardware requirements for students to code and submit their work. As long as the students have a device that can access the internet via a web browser, they should be able to code on it. The choice of device will not impact how the IDE runs.  However, it is easier to code with a physical keyboard, so a more traditional computer or laptop is suggested. 
 
-From a teaching point of view, presenting new information is much better with a wealth of technology at your disposal. The following may come in handy for creating a dynamic and enganging classroom:
+From a teaching point of view, presenting new information is much better with a wealth of technology at your disposal. The following may come in handy for creating a dynamic and enganging classroom.
 
-* Smart/Promethean Board for student and teacher interaction with presentations
-* Screen mirroring hardware for presentations and programming demostrations
-* Classroom speakers to play media and classroom music
+.*Smart/Promethean Board*
+These interactive whiteboards allow for students and teachers to interact with presentations using touch and special writing utencils.
 
-TIP: In a pinch, a single bluetooth speaker can work wonders if the classroom does not have a speaker system
+.*Screen mirroring hardware*
+Screen mirroring allows you to move your laptop, tablet, or other device being used to display information through a projector or television. This can come in handy for presentions of information on the fly and for being able to cylce around the classroom during a presentation.
+
+TIP: A tablet being screen mirrored to a projector can work wonders for classroom management as you can cycle through the room while displaying information.
+
+.*Classroom speakers to play media*
+Music can create an engergetic, motivating, and/or focused enviorment depending on the playlist chosen.
+
+TIP: In a pinch, a single bluetooth speaker can work wonders if the classroom does not have a speaker system.
 
 == Process of Whitelisting Websites
+
+link:../day0.html#_websites_to_whitelist[Whitelisting websites] is essential in order for students to take CS50 AP. Otherwise, students won't have access to the CS50 IDE and other resources.  It's best to ask administration at your school or district about this process. In some cases, it could take more than a month to have the websites approved to be whitelisted. Thus, start this process a few months out from the start of the school year. If you run into any bumps, feel free to contact us to ask for a persuasive letter at ap@cs50.harvard.edu.
 
 == Importance of Events
 
