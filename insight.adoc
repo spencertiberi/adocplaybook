@@ -54,14 +54,15 @@ The development of CS50 culture at your school is a big part of making the cours
 CS50 events are a huge part of what makes CS50 AP tick. They not only increase notoriety on campus and in the community, but they also help students feel more comfortable and excited about material that otherwise may be intimidating. We want to make sure to provide you with a link:../events.html[wealth of advice on running events at your school]. If you need any help with this process, feel free to contact ap@harvard.cs50.edu.
 
 === Occasional food, snacks, or treats
+[caption=""]
+image::assets/ggv2.jpg[Mary Poppins, 400]
+
 [quote, Mary Poppins]
 A spoonful of sugar helps the medicine go down.
 
-image::assets/ggv2.jpg[Mary Poppins, 400]
 
 Food and culture go hand in hand. It can help events become more engaging. It can also take the edge off of when students feel stressed. For example, I used to give cupcakes to my students on test days.
 
-=== Events that are tangental to coursework
 
 == Establishing Community Partnerships
 
