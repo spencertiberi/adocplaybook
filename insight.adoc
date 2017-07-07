@@ -5,7 +5,11 @@
 
 Know that you are not alone as a member of the CS50 AP teaching corps. Indeed, this playbook was written by a CS50 AP educator. Here are some insights and pro tips from CS50 AP educators, both former and current.
 
-== School and District Administration
+.Visual Approximation of an Administrator
+[caption=""]
+image::assets/principal.gif[Principal,175,align="center",float="right"]
+
+== School and District Administration 
 
 Some CS50 AP teachers are lucky to have the full support from school and/or district administration. Others, not so much. For planning events, grading policies, establishing a rich culture, and ensuring access to technology, administration support is increadibly helpful. Your excitement can go a long way to sell the course. CS50 is always willing to aid in convicing administration to properly support the course. If you would like CS50 to write a letter with Harvard's letterhead to aid in your dialog with administration, feel free to email a request to ap@cs50.harvard.edu.
 
@@ -42,12 +46,23 @@ TIP: In a pinch, a single bluetooth speaker can work wonders if the classroom do
 
 link:../day0.html#_websites_to_whitelist[Whitelisting websites] is essential in order for students to take CS50 AP. Otherwise, students won't have access to the CS50 IDE and other resources.  It's best to ask administration at your school or district about this process. In some cases, it could take more than a month to have the websites approved to be whitelisted. Thus, start this process a few months out from the start of the school year. If you run into any bumps, feel free to contact us to ask for a persuasive letter at ap@cs50.harvard.edu.
 
-== Importance of Events
-
-CS50 events are a huge part of what makes CS50 AP tick. They not only increase notoriety on campus and in the community, but they also help students feel more comfortable and excited about material that otherwise may be intimidating. We want to make sure to provide you with a link:../events.html[wealth of advice on running events at your school]. If you need any help with this process, feel free to contact ap@harvard.cs50.edu.
-
 == Classroom Culture
 
-The development of CS50 culture at your school is a big part of making the course more accessible and engaging for students. During any given semester at Harvard, over 70% of the students taking CS50 have no previous programming experiece. The galvanizing culture of CS50 helps students become comfortable with taking on the challenge of learning a new concept. To help create a culture that is CS50 AP at your school, consider some of the following:
+The development of CS50 culture at your school is a big part of making the course more accessible and engaging for students. During any given semester at Harvard, over 70% of the students taking CS50 have no previous programming experiece. The galvanizing culture of CS50 helps students become comfortable with taking on the challenge of learning a new concept. To help create a culture that is CS50 AP at your school, consider some of the following.
+
+=== CS50 events
+CS50 events are a huge part of what makes CS50 AP tick. They not only increase notoriety on campus and in the community, but they also help students feel more comfortable and excited about material that otherwise may be intimidating. We want to make sure to provide you with a link:../events.html[wealth of advice on running events at your school]. If you need any help with this process, feel free to contact ap@harvard.cs50.edu.
+
+=== Occasional food, snacks, or treats
+[quote, Mary Poppins]
+A spoonful of sugar helps the medicine go down.
+
+image::assets/ggv2.jpg[Mary Poppins, 400]
+
+Food and culture go hand in hand. It can help events become more engaging. It can also take the edge off of when students feel stressed. For example, I used to give cupcakes to my students on test days.
+
+=== Events that are tangental to coursework
 
 == Establishing Community Partnerships
+
+Community partnerships can be very nifty for implementing CS50 AP at your school. Not only can they help your brand for the course, they can become very helpful for when you plan events. You may be suprised at company connections that already exist in the local community through your students. In general, it never hurts to ask. Often asking for a donation or discount from a local company yields satisfactory results.
