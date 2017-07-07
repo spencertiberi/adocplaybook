@@ -3,7 +3,15 @@
 
 = Day 0
 
-So it begins. You're about to stand in front of a group and say "This is CS50." This is a short list of things to consider to help this day go smoothly.
+.David Malan prepping for lecture 0 
+[caption=""]
+image::assets/david.jpg[David Malan, 400, float=left]
+
+So it begins... 
+
+You're about to stand in front of a group of teenage students and say "This is CS50." You're nevrous, but on the surface you look calm and ready. image:assets/eminem.jpg[emineem, 200]
+
+Here is a short list of things to consider to help you feel under control and this first day go smoothly.
 
 == Websites to Whitelist
 
