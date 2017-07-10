@@ -9,7 +9,7 @@ The CS50 IDE (https://cs50.io) is a cloud-based Integrated Development Environme
 
 .hello.c on the CS50 IDE
 [caption=""]
-image::https://manual.cs50.net/assets/night-mode.png[CS50 IDE]
+image::../assets/nightmodeide.png[CS50 IDE]
 
 == CS50 IDE Setup
 
