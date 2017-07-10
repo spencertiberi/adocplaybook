@@ -35,6 +35,8 @@ To properly set up the CS50 student experience, be sure to have your school or d
 |*.cs50.tv
 |===
 
+The process of getting websites whitelisted may take quite some time, so best to plan on initiating a dialog with your administration at least a month before the start of the school year.
+
 == Checklist
 
 * [ ] Websites whitelisted
