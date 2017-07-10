@@ -58,3 +58,9 @@ CS50 AP is broken into seven chapters with two optional chapters.  Also essentia
 * link:../resources/cs50.me.html[CS50.me]
 
 === 6. link:../curriculumstartup.html[Curriculum Overview and Startup Guide]
+
+== Thank You...
+
+...for all that you do in teaching this course! Really, you're amazing!
+
+image::assets/slowclap.gif[slowclap]
