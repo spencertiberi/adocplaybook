@@ -2,9 +2,12 @@
 :toclevels: 3
 
 = CS50 AP Curriculum Outline and Startup Guide
-<Note: add problems throughout>
 
 == Concepts Taught in CS50 AP
+
+CS50 AP covers a lot of material. Luckily, we've got your back!
+
+image:assets/igotu.gif[igotu,250]
 
 The following is an outline of concepts covered in the CS50 AP curriculum. The individual conecpts are grouped into chapters with approximations for completion time. Each concept includes an tips and suggestions as to how to get started when teaching the topic.
 

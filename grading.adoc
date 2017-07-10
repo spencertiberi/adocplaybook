@@ -120,10 +120,13 @@ Note the following code segments from a submission by a fictitious student for t
 11    float owed = 0;
 12    float coins = 0;
 ```
+image:assets/muppet.png[muppet, 120, float="right"]
+
 > It's a great idea to store these reused values. Do these values ever change or are they static? Do they need to be floats? 
 > Perhaps it would be best to create constants using 
 > `#DEFINE`.
-> -- Awesome CS50 AP Teacher
+> -- Awesome CS50 AP Teacher 
+
 
 ==== Another Design Feedback Opportunity
 
@@ -150,6 +153,8 @@ Note the following code segments from a submission by a fictitious student for t
 44        coins++;
 45    }
 ```
+image:assets/dancoffey.gif[dan, 120, float="right"]
+
 > How might we have used the modulus `%` operator instead of using while loops? What might be better about this approach?
 > -- Handsome CS50 AP Teacher
 
@@ -165,6 +170,7 @@ Note the following code segments from a submission by a fictitious student for t
 21    // computer takes users change and converts into as few coins as possible    
 22    while (owed <= 0);
 ```
+image:assets/mario.jpg[mario, 120, float="right"]
 
 > Nice use of braces. However, on lines 17 and 18, it would be easier to read if the lines had another four spaces of indentation. Also,
 > the comment on line 21 breaks 

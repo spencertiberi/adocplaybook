@@ -14,6 +14,8 @@ AP CSP requires the completion of two perfomance tasks, the *Explore Task* and t
 
 === Explore Task
 
+image::assets/explore.gif[explore,300]
+
 The purpose of the *Explore Task* is for each student to investigate and critically analyze an innovation of his or her choosing. The Explore Task falls between Chapters 0 and 1. At this point they have completed several writing assignments geared towards helping students find credible sources and guiding them through the researching process. 
 
 === Create Task
@@ -23,6 +25,9 @@ The purpose of the *Create Task* is for each student to create a culminating pro
 The Create Task comes in at the end of the core chapters, following Chapter 6. After completing Chapter 6, students have developed an entire toolbox of languages and platforms to build whatever they choose. While the majority of problems are very much structured and a have a well-defined solution, students engage a sense of creativity in the way that they implement their algorithms. Students understand that everyone may have a different approach to solving the same problem, but they could all be correct approaches. By the end of the course, students have dabbled in C and web development and have implemented algorithms to solve various problems. It is at this point that students are able to create a project that they are engaged in and are able to research new topics of interest that were not covered in-depth in the course.
 
 == AP Exam
+
+image:assets/test.gif[test]
+
 
 === Topics Covered
 

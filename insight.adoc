@@ -7,7 +7,7 @@ Know that you are not alone as a member of the CS50 AP teaching corps. Indeed, t
 
 .Visual Approximation of an Administrator
 [caption=""]
-image::assets/principal.gif[Principal,150,align="center",float="right"]
+image::assets/principal.gif[Principal,120,align="center",float="right"]
 
 == School and District Administration 
 
