@@ -63,4 +63,4 @@ CS50 AP is broken into seven chapters with two optional chapters.  Also essentia
 
 ...for all that you do in teaching this course! Really, you're amazing!
 
-image::assets/slowclap.gif[slowclap]
+image::assets/slowclap2.gif[slowclap]
