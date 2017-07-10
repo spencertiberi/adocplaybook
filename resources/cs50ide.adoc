@@ -14,7 +14,7 @@ It features an Ubuntu environment with a browser-based editor, that supports C (
 .hello.c on the CS50 IDE
 [caption=""]
 image::../assets/nightmodeide.png[CS50 IDE, 800]
-image::../assets/beautiful.gif[beautiful,400]
+image::../assets/beautiful2.gif[beautiful,400]
 
 == CS50 IDE Setup
 
