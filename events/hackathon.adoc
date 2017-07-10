@@ -5,7 +5,11 @@
 
 == What is it?
 
-On campus at Harvard, the *CS50 Hackathon* is an epic all-nighter during which students dive into final projects with classmates and staff. Food, photos, and fun are apart of the 12-hour-long event. However, in a high school setting, teachers typically opt for a five- or six-hour event, often starting midday on a Saturday.
+On campus at Harvard, the *CS50 Hackathon* is an epic all-nighter during which students dive into final projects with classmates and staff. Food, photos, and fun are apart of the 12-hour-long event. 
+
+image::../assets/nosleep.gif[nosleep]
+
+However, in a high school setting, teachers typically opt for a five- or six-hour event, often starting midday on a Saturday.
 
 The CS50 AP Hackathon is an oportunity for students to synthesize and expand on what they've learned during the course. It's a great opportunity for students to dive deeper into the AP CS Principles *Create Task*, as well as publicize your CS50 AP class.
 
@@ -123,8 +127,13 @@ NOTE: Students should not feel limited to the languages/APIs used in class. CS50
 
 To reduce headache, you’ll want a list of volunteers, their phone numbers, and any roles you’ve assigned them. This way you’ll know exactly who to call if something goes wrong. We here at CS50 open a slack channel during the Hackathon and invite all participants to jump on as well. This way we can make announcements without disrupting students’ workflow. Students will be collaborating at this event to work through bugs, so make sure you define the extent in which you want them to collaborate and expose them to some platforms for doing so such as collaborator mode in the IDE and Github.
 
-
 == Timeline/Checklist
+
+
+*Okay... Let's do this!*
+
+image:../assets/letsdothis1.gif[letsdothis,300]
+
 
 === 6 Months Before
 

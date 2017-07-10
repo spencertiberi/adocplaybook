@@ -1,6 +1,9 @@
 = CS50 Events
 
 == Purpose
+
+image::../assets/djcat.gif[djcat]
+
 Events are an essential part of the CS50 AP experience. They help develop a rich culture and play a crutial part in expanding the course. The following CS50 events are held annually on campus at Harvard. Click the events to learn more information about bringing each event to your school.
 
 == Event Info
@@ -9,7 +12,7 @@ Events are an essential part of the CS50 AP experience. They help develop a rich
 
 .Students work on puzzles during CS50 Puzzle Day 2016
 [caption=""]
-image::https://photos.smugmug.com/CS50-Puzzle-Day-2016-JH/i-Zc6rxDT/0/2b5c12e9/X3/2016_9_puzzle_day_jh-46-X3.jpg[Puzzle Day,500]
+image::../assets/puzzleday.jpg[Puzzle Day,500]
 
 ---
 
@@ -17,7 +20,7 @@ image::https://photos.smugmug.com/CS50-Puzzle-Day-2016-JH/i-Zc6rxDT/0/2b5c12e9/X
 
 .Students enjoy well-deserved IHOP at the end of the all-night CS50 Hackathon
 [caption=""]
-image::https://photos.smugmug.com/CS50-Hackathon-2014-Moon/i-xcT5hhq/0/89cc4f97/X3/cs50hack-3659-X3.jpg[Students enjoy well-deserved IHOP at the end of the all-night CS50 Hackathon,500]
+image::../assets/hackathon.jpg[Students enjoy well-deserved IHOP at the end of the all-night CS50 Hackathon,500]
 
 ---
 
@@ -25,4 +28,4 @@ image::https://photos.smugmug.com/CS50-Hackathon-2014-Moon/i-xcT5hhq/0/89cc4f97/
 
 .Students display their projects at the 2016 CS50 Fair
 [caption=""]
-image::https://photos.smugmug.com/CS50-Fair-2016-AS/i-29kZNS3/0/76be3ef2/X3/4Q3A4803-X3.jpg[CS50 Fair 2015,500]
+image::../assets/cs50fair.jpg[CS50 Fair 2015,500]

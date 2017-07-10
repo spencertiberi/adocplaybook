@@ -5,7 +5,7 @@
 
 == What is it?
 
-The culminating event for CS50 at Harvard and Yale is the CS50 fair, in which students showcase their final projects. The fair is a huge event, in which members of the community are invited to see what CS50 students have accomplished. At the high school level, the fair can be used to showcase the AP exam's *Create Performance Task* . This is an opportunity for you to publicize CS50 AP and the amazing work your students have achieved, especially to younger students, who may be encouraged to take your course.
+The culminating event for CS50 at Harvard and Yale is the CS50 fair, in which students showcase their final projects. The fair is a huge event, in which members of the community are invited to see what CS50 students have accomplished. At the high school level, the fair can be used to showcase the AP exam's *Create Performance Task*. This is an opportunity for you to publicize CS50 AP and the amazing work your students have achieved, especially to younger students, who may be encouraged to take your course.
 
 .Students display their projects during CS50 Fair 2016
 [caption=""]
@@ -107,6 +107,8 @@ Music is incredibly powerful, and can help create a festive/lively atmosphere. I
 A social media presence at events not only excites current students but it can also galvanize potential future students to take CS50.  Hashtags for Instagram and filters for SnapChat are some ideas of ways to affect a larger population.  You can post information about social media on posters/banners/fliers at the event.
 
 == Timeline/Checklist
+
+image::../assets/herewego.gif[herewego]
 
 === 6 Months Before
 

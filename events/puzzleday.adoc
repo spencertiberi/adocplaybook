@@ -5,11 +5,13 @@
 
 == What is it?
 
-CS50 Puzzle Day is a CS50 tradition at Harvard since 2011. It kicks off the course with puzzles, food, and prizes. None of the puzzles require programming experience as to emphasize that computer science is not all about programming, but rather problem-solving. Indeed, the event is open to all regardless of background or enrollment and bringing friends is encouraged of students.
-
 .Students tackle puzzles with the aid of candy at CS50 Puzzle Day 2015
 [caption=""]
 image::https://scontent.xx.fbcdn.net/v/t31.0-8/12000825_10102348825751161_7070941056118308880_o.jpg?oh=f2333d8f8435ca21b1d03d88b4e9aeac&oe=59E3576B[CS50 Puzzle Day 2015,500]
+
+CS50 Puzzle Day is a CS50 tradition at Harvard since 2011. It kicks off the course with puzzles, food, and prizes! None of the puzzles require programming experience as to emphasize that computer science is not all about programming, but rather problem-solving. Indeed, the event is open to all regardless of background or enrollment and bringing friends is encouraged of students.
+
+image::../assets/puzzle.gif[puzzle]
 
 == Things to Consider When Planning a CS50 AP Puzzle Day
 
@@ -29,6 +31,8 @@ Don't forget to talk to local businesses to see if they will help subsidize!
 Be sure to encourage that "winning" isn't the goal -- problem solving and creative thinking is the goal. Having fun is the most important thing.  If giving out prizes to winning team(s), we suggest also setting up raffle prizes and minimally message the element of prizes to ensure most people don't attend expecting or looking for a prize.
 
 == Timeline/Checklist
+
+image::../assets/letsdothis2.gif[letsdothis, 400]
 
 === 1 Month Before
 
