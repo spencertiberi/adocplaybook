@@ -43,6 +43,6 @@ The process of getting websites whitelisted may take quite some time, so best to
 * [ ] Obtained CS50 swag (email ap@cs50.harvard.edu if not)
 * [ ] Plan a link:../events/puzzleday.html[puzzleday]
 * [ ] Review link:../curriculumstartup.html#_chapter_0_computers_and_computing_completion_time_3_weeks[Chapter 0 materials]
-* [ ] Ensure website is set up
+* [ ] Ensure class website is set up
 * [ ] Ensure CS50.me is set up
 * [ ] Have students link:../resources/cs50ide.html#_cs50_ide_setup[register for edX] in order to use the CS50 IDE.
