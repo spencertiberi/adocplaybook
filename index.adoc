@@ -3,7 +3,7 @@
 
 = CS50 AP Playbook
 
-image::assets/playbook.png[playbook, 500, float="left"]
+image::assets/playbook.png[playbook, 400, float="left"]
 
 == Welcome
 
