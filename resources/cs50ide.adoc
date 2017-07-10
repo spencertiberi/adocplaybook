@@ -5,11 +5,15 @@
 
 == What is it?
  
-The CS50 IDE (https://cs50.io) is a cloud-based Integrated Development Environment. It features an Ubuntu environment with a browser-based editor, that supports C (as well as python, html/css, JavaScript, and much more!) syntax highlighting and word completing, a GUI-based GDB debugger, and customizable options such as layouts, themes, and keyboard shortcuts. Users can continue working on problems even if they use different computers as it is cloud-based.  Students will be using the CS50 IDE throughout the school year for creation, debugging, collaboration, and submission of programs.
+The CS50 IDE (https://cs50.io) is a cloud-based Integrated Development Environment and it's amazing!
+
+image::../assets/jake.gif[jake,400]
+
+It features an Ubuntu environment with a browser-based editor, that supports C (as well as python, html/css, JavaScript, and much more!) syntax highlighting and word completing, a GUI-based GDB debugger, and customizable options such as layouts, themes, and keyboard shortcuts. Users can continue working on problems even if they use different computers as it is cloud-based. As it's cloud-based, no downloaded software or specific hardware specifications are required. You and your students will be using the CS50 IDE throughout the school year for creation, debugging, collaboration, and submission of programs.
 
 .hello.c on the CS50 IDE
 [caption=""]
-image::../assets/nightmodeide.png[CS50 IDE]
+image::../assets/nightmodeide.png[CS50 IDE, 800]
 
 == CS50 IDE Setup
 
