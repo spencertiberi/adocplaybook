@@ -24,14 +24,14 @@ CS50 AP is broken into seven chapters with two optional chapters.  Also essentia
 *Chapter 2:* Putting the Blocks Together +
 *Chapter 3:* Thinking Computationally +
 *Chapter 4:* Design, Elegance, and Efficiency +
+*Chapter A:* Managing Data (Optional) +
+*Chapter B:* Developer’s Toolbox (Optional) +
 *Chapter 5:* Networking and the Internet +
 *Chapter 6:* Problem Solving in an Interconnected World +
 *AP CSP Create Task* +
 *CS50 Hackathon* +
 *CS50 Fair* +
 *AP CSP Exam* +
-*Chapter A:* Managing Data (Optional) +
-*Chapter B:* Developer’s Toolbox (Optional) +
 ****
 
 == Playbook Contents
