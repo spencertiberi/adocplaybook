@@ -18,7 +18,7 @@ Students will engage in real world problems to analyze and create algorithms. St
 
 ---
 
-==== a. Computers and how they work
+==== a. Computers
 _What makes a computer a computer? Discuss the common bonds that unify all those things, which we call computers. Also take a brief look at algorithms and the techniques used for solving problems._
 
 .How to Launch the Lesson:
