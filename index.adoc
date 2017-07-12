@@ -7,7 +7,7 @@ image::assets/pikachu.gif[playbook, 400, float="left"]
 
 == Welcome
 
-O hai! We're happy to welcome you aboard the CS50 AP train. We want to provide you with as much resources and guidance to make your become More Comfortable with teaching CS50 AP.
+O hai! We're happy to welcome you aboard the CS50 AP train. We want to provide you with as much resources and guidance to make you become More Comfortable with teaching CS50 AP.
 
 This playbook aims to help startup your CS50 AP course and create a rich CS50 experience at your school. This page is a launchpad to all the contents of the playbook.
 
